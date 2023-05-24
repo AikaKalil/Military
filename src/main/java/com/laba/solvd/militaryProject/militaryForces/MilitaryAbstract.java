@@ -1,6 +1,5 @@
 package com.laba.solvd.militaryProject.militaryForces;
 
-import com.laba.solvd.militaryProject.exceptions.DuplicateEntryException;
 import com.laba.solvd.militaryProject.exceptions.InsufficientFundsException;
 import com.laba.solvd.militaryProject.militaryPersonnel.MilitaryPersonnelAbstract;
 import com.laba.solvd.militaryProject.militaryEquipments.MilitaryEquipmentAbstract;

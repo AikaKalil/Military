@@ -12,18 +12,18 @@ public enum SoldierRank {
     COMMAND_SERGEANT_MAJOR("Command Sergeant Major", 8000.0);
 
     private final String rank;
-    private final double baseSalary;
+    private final double bonus;
 
     SoldierRank(String rank, double baseSalary) {
         this.rank = rank;
-        this.baseSalary = baseSalary;
+        this.bonus = baseSalary;
     }
     public String getRank() {
         return rank;
     }
 
-    public double getBaseSalary() {
-        return baseSalary;
+    public double getBonus() {
+        return bonus;
     }
 
 

@@ -1,6 +1,7 @@
 package com.laba.solvd.militaryProject.militaryPersonnel;
 
 import com.laba.solvd.militaryProject.Main;
+import com.laba.solvd.militaryProject.enums.Gender;
 import com.laba.solvd.militaryProject.interfaces.CalculateSalary;
 import com.laba.solvd.militaryProject.interfaces.GetInfo;
 import org.apache.log4j.Logger;
@@ -14,17 +15,21 @@ public abstract class MilitaryPersonnelAbstract implements CalculateSalary, GetI
     private double salary;
     private String rank;
 
+    private Gender gender;
 
-    public MilitaryPersonnelAbstract(String name, double salary,String rank) {
+
+    public MilitaryPersonnelAbstract(String name, double salary,String rank,Gender gender) {
         this.name = name;
         this.salary = salary;
         this.rank = rank;
+        this.gender=gender;
 
 
     }
-    public MilitaryPersonnelAbstract(String name, double salary) {
+    public MilitaryPersonnelAbstract(String name, double salary,Gender gender) {
         this.name = name;
         this.salary = salary;
+        this.gender=gender;
     }
 
 
@@ -50,6 +55,13 @@ public abstract class MilitaryPersonnelAbstract implements CalculateSalary, GetI
 
     public void setRank(String rank) {
         this.rank = rank;
+    }
+    public Gender getGender() {
+        return gender;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
     }
 
    @Override

@@ -1,29 +1,36 @@
 package com.laba.solvd.militaryProject.militaryPersonnel;
+import com.laba.solvd.militaryProject.enums.Gender;
+import com.laba.solvd.militaryProject.enums.OfficerRank;
+import com.laba.solvd.militaryProject.enums.SoldierRank;
+import com.laba.solvd.militaryProject.exceptions.InvalidPersonnelException;
+import com.laba.solvd.militaryProject.militaryEquipments.Drones;
+import org.apache.log4j.Logger;
+
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Officer extends MilitaryPersonnelAbstract {
+    public static Logger log = Logger.getLogger(Officer.class);
+    Scanner scan=new Scanner(System.in);
 
-    public static final Map<String, Double> RANK_SALARY_MAP;
-    static {
-        RANK_SALARY_MAP = new HashMap<>();
-        RANK_SALARY_MAP.put("Second Lieutenant", 3000.0);
-        RANK_SALARY_MAP.put("First Lieutenant", 4000.0);
-        RANK_SALARY_MAP.put("Captain", 5000.0);
-        RANK_SALARY_MAP.put("Major", 6000.0);
-        RANK_SALARY_MAP.put("Lieutenant Colonel", 7000.0);
-        RANK_SALARY_MAP.put("Colonel", 8000.0);
-        RANK_SALARY_MAP.put("Brigadier General", 9000.0);
-        RANK_SALARY_MAP.put("Major General", 10000.0);
-        RANK_SALARY_MAP.put("Lieutenant General", 11000.0);
-        RANK_SALARY_MAP.put("General", 12000.0);
-    }
-    public Officer(String name, double salary, String rank) {
-        super(name, salary,rank);
+    private OfficerRank officerRank;
+
+    public Officer(String name, double salary, OfficerRank officerRank, Gender gender) throws InvalidPersonnelException {
+        super(name, salary,gender);
+        this.officerRank=officerRank;
+        if (name==null || salary<=0 || officerRank==null){
+            log.info("Enter a name: ");
+            String newName = scan.nextLine();
+
+            log.info("Enter a salary: ");
+            double newCost = scan.nextDouble();
+
+        }
     }
     @Override
     public double calculateSalary() {
-        double baseSalary = RANK_SALARY_MAP.getOrDefault(getRank(), 0.0);
+        double baseSalary = officerRank.getBonus();
         return baseSalary + super.getSalary();
     }
     @Override
@@ -31,4 +38,9 @@ public class Officer extends MilitaryPersonnelAbstract {
         return getName()+" is a soldier with rank "+getRank()+" and salary "+calculateSalary();
     }
 
+    @Override
+    public String getRank() {
+
+        return officerRank.getRank();
+    }
 }

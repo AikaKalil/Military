@@ -6,12 +6,11 @@ import org.apache.log4j.Logger;
 
 import java.util.Scanner;
 
-public class Drones extends MilitaryEquipmentAbstract{
+public class Tank extends MilitaryEquipmentAbstract{
+    private double tankBudget;
     public static Logger log = Logger.getLogger(Drones.class);
-    private double droneBudget;
     Scanner scan=new Scanner(System.in);
-
-    public Drones(String name, double cost, int quantity, Branch branch) throws InvalidEquipmentException {
+    public Tank(String name, double cost, int quantity, Branch branch) throws InvalidEquipmentException {
         super(name, cost, quantity,branch);
         if (quantity <= 0 || cost<=0 || name==null) {
             log.info("Enter a new name: ");
@@ -29,13 +28,11 @@ public class Drones extends MilitaryEquipmentAbstract{
     }
     @Override
     public double calculateCost() {
-
-        return droneBudget += super.calculateCost();
+        return tankBudget+=super.calculateCost();
     }
 
     @Override
     public String getInfo() {
-        return super.getInfo()+"\nTotal: $"+droneBudget;
+        return super.getInfo()+"\nTotal: $"+tankBudget;
     }
-
 }

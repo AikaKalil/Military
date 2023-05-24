@@ -1,19 +1,19 @@
 package com.laba.solvd.militaryProject.militaryPersonnel;
 
-
 import com.laba.solvd.militaryProject.enums.Gender;
-import com.laba.solvd.militaryProject.enums.SoldierRank;
+import com.laba.solvd.militaryProject.enums.PilotRank;
 import com.laba.solvd.militaryProject.exceptions.InvalidPersonnelException;
 
 import java.util.Scanner;
 
-public class Soldier extends MilitaryPersonnelAbstract{
-    private SoldierRank soldierRank;
+public class Pilot extends MilitaryPersonnelAbstract {
     Scanner scan=new Scanner(System.in);
-    public Soldier(String name, double salary, SoldierRank soldierRank, Gender gender) throws InvalidPersonnelException {
+    private PilotRank pilotRank;
+
+    public Pilot(String name, double salary, PilotRank pilotRank, Gender gender) throws InvalidPersonnelException {
         super(name, salary,gender);
-        this.soldierRank = soldierRank;
-        if (name==null || salary<=0 || soldierRank==null){
+        this.pilotRank = pilotRank;
+        if (name==null || salary<=0 || pilotRank==null){
             log.info("Enter a name: ");
             String newName = scan.nextLine();
 
@@ -22,20 +22,20 @@ public class Soldier extends MilitaryPersonnelAbstract{
 
 
         }
+
     }
     @Override
     public double calculateSalary() {
-        double baseSalary = soldierRank.getBonus();
-        return baseSalary + super.getSalary();
+        double salary = pilotRank.getBonus();
+        return salary + super.getSalary();
     }
 
     @Override
     public String getInfo() {
-        return getName() + " is a soldier with rank " + soldierRank.getRank() + " and salary " + calculateSalary();
+        return getName() + " is a soldier with rank " + pilotRank.getRank() + " and salary " + calculateSalary();
     }
     @Override
     public String getRank() {
-
-        return soldierRank.getRank();
+        return pilotRank.getRank();
     }
 }

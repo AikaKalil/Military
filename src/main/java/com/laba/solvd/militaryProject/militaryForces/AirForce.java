@@ -1,6 +1,6 @@
 package com.laba.solvd.militaryProject.militaryForces;
 
-import com.laba.solvd.militaryProject.exceptions.DuplicateEntryException;
+import com.laba.solvd.militaryProject.exceptions.DuplicatePersonnelException;
 import com.laba.solvd.militaryProject.exceptions.InsufficientFundsException;
 import com.laba.solvd.militaryProject.militaryPersonnel.MilitaryPersonnelAbstract;
 import com.laba.solvd.militaryProject.militaryEquipments.MilitaryEquipmentAbstract;
@@ -40,14 +40,14 @@ public class AirForce extends MilitaryAbstract{
     }
 
     @Override
-    public ArrayList<MilitaryPersonnelAbstract> getPersonnelList() throws DuplicateEntryException {
+    public ArrayList<MilitaryPersonnelAbstract> getPersonnelList() throws DuplicatePersonnelException {
         ArrayList<MilitaryPersonnelAbstract> uniquePersonnelList = new ArrayList<>();
         for (MilitaryPersonnelAbstract personnel : super.getPersonnelList()) {
             if (!uniquePersonnelList.contains(personnel)) {
                 uniquePersonnelList.add(personnel);
             } else if(uniquePersonnelList.contains(personnel)){
                 logger.error("Personnel already exists.");
-                throw new DuplicateEntryException("Duplicates not allowed");
+                throw new DuplicatePersonnelException("Duplicates not allowed");
             }
 
         }

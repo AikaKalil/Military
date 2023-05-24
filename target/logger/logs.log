@@ -1,0 +1,606 @@
+2023-05-20 18:22:39 ERROR Main:51 - Invalid quantity: Invalid quantity for drones: 0
+2023-05-20 18:22:39 ERROR Army:46 - Personnel already exists.
+2023-05-20 18:22:39 ERROR Main:62 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-20 18:22:39 INFO  Main:68 - Added a new soldier to the Air Force personnel list.
+2023-05-20 18:22:39 ERROR Army:49 - Personnel already exists.
+2023-05-20 18:22:39 ERROR Main:80 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-20 18:22:39 INFO  Army:35 - Expenses tracked successfully
+2023-05-20 18:22:39 INFO  Army:36 - Remaining budget for Air Force: $184999764000
+2023-05-20 18:22:39 INFO  Army:38 - Remaining total budget for 2023: $631000236000
+2023-05-20 18:22:39 INFO  Main:85 - You have enough money to spend
+2023-05-20 18:22:39 INFO  Army:33 - Expenses tracked successfully
+2023-05-20 18:22:39 INFO  Army:34 - Remaining budget for Air Force: $174999776000
+2023-05-20 18:22:39 INFO  Army:36 - Remaining total budget for 2023: $456000460000
+2023-05-20 18:22:39 INFO  Main:93 - You have enough money to spend
+2023-05-20 18:22:39 INFO  Main:105 - Officer Salary: $62000.0
+2023-05-20 18:22:39 INFO  Main:110 - Soldier Salary: $30500.0
+2023-05-20 18:22:59 ERROR Main:128 - An error occurred!
+java.io.FileNotFoundException:  (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.util.Scanner.<init>(Scanner.java:639)
+	at com.laba.solvd.militaryProject.Main.main(Main.java:115)
+2023-05-20 18:23:23 ERROR Main:51 - Invalid quantity: Invalid quantity for drones: 0
+2023-05-20 18:23:23 ERROR Army:46 - Personnel already exists.
+2023-05-20 18:23:23 ERROR Main:62 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-20 18:23:23 INFO  Main:68 - Added a new soldier to the Air Force personnel list.
+2023-05-20 18:23:23 ERROR Army:49 - Personnel already exists.
+2023-05-20 18:23:23 ERROR Main:80 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-20 18:23:23 INFO  Army:35 - Expenses tracked successfully
+2023-05-20 18:23:23 INFO  Army:36 - Remaining budget for Air Force: $184999764000
+2023-05-20 18:23:23 INFO  Army:38 - Remaining total budget for 2023: $631000236000
+2023-05-20 18:23:23 INFO  Main:85 - You have enough money to spend
+2023-05-20 18:23:23 INFO  Army:33 - Expenses tracked successfully
+2023-05-20 18:23:23 INFO  Army:34 - Remaining budget for Air Force: $174999776000
+2023-05-20 18:23:23 INFO  Army:36 - Remaining total budget for 2023: $456000460000
+2023-05-20 18:23:23 INFO  Main:93 - You have enough money to spend
+2023-05-20 18:23:23 INFO  Main:105 - Officer Salary: $62000.0
+2023-05-20 18:23:23 INFO  Main:110 - Soldier Salary: $30500.0
+2023-05-20 18:23:28 INFO  Main:116 - Write your text here: 
+2023-05-20 18:23:28 INFO  Main:125 - Unique word count written to file successfully.
+2023-05-20 18:23:59 ERROR Main:51 - Invalid quantity: Invalid quantity for drones: 0
+2023-05-20 18:23:59 ERROR Army:46 - Personnel already exists.
+2023-05-20 18:23:59 ERROR Main:62 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-20 18:23:59 INFO  Main:68 - Added a new soldier to the Air Force personnel list.
+2023-05-20 18:23:59 ERROR Army:49 - Personnel already exists.
+2023-05-20 18:23:59 ERROR Main:80 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-20 18:23:59 INFO  Army:35 - Expenses tracked successfully
+2023-05-20 18:23:59 INFO  Army:36 - Remaining budget for Air Force: $184999764000
+2023-05-20 18:23:59 INFO  Army:38 - Remaining total budget for 2023: $631000236000
+2023-05-20 18:23:59 INFO  Main:85 - You have enough money to spend
+2023-05-20 18:23:59 INFO  Army:33 - Expenses tracked successfully
+2023-05-20 18:23:59 INFO  Army:34 - Remaining budget for Air Force: $174999776000
+2023-05-20 18:23:59 INFO  Army:36 - Remaining total budget for 2023: $456000460000
+2023-05-20 18:23:59 INFO  Main:93 - You have enough money to spend
+2023-05-20 18:23:59 INFO  Main:105 - Officer Salary: $62000.0
+2023-05-20 18:23:59 INFO  Main:110 - Soldier Salary: $30500.0
+2023-05-20 18:24:03 INFO  Main:116 - Write your text here: 
+2023-05-20 18:24:03 INFO  Main:125 - Unique word count written to file successfully.
+2023-05-20 18:27:32 ERROR Main:51 - Invalid quantity: Invalid quantity for drones: 0
+2023-05-20 18:27:32 ERROR Army:46 - Personnel already exists.
+2023-05-20 18:27:32 ERROR Main:62 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-20 18:27:32 INFO  Main:68 - Added a new soldier to the Air Force personnel list.
+2023-05-20 18:27:32 ERROR Army:49 - Personnel already exists.
+2023-05-20 18:27:32 ERROR Main:80 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-20 18:27:32 INFO  Army:35 - Expenses tracked successfully
+2023-05-20 18:27:32 INFO  Army:36 - Remaining budget for Air Force: $184999764000
+2023-05-20 18:27:32 INFO  Army:38 - Remaining total budget for 2023: $631000236000
+2023-05-20 18:27:32 INFO  Main:85 - You have enough money to spend
+2023-05-20 18:27:32 INFO  Army:33 - Expenses tracked successfully
+2023-05-20 18:27:32 INFO  Army:34 - Remaining budget for Air Force: $174999776000
+2023-05-20 18:27:32 INFO  Army:36 - Remaining total budget for 2023: $456000460000
+2023-05-20 18:27:32 INFO  Main:93 - You have enough money to spend
+2023-05-20 18:27:32 INFO  Main:105 - Officer Salary: $62000.0
+2023-05-20 18:27:32 INFO  Main:110 - Soldier Salary: $30500.0
+2023-05-20 18:27:36 INFO  Main:116 - Write your text here: 
+2023-05-20 18:27:36 INFO  Main:125 - Unique word count written to file successfully.
+2023-05-20 18:27:56 ERROR Main:51 - Invalid quantity: Invalid quantity for drones: 0
+2023-05-20 18:27:56 ERROR Army:46 - Personnel already exists.
+2023-05-20 18:27:56 ERROR Main:62 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-20 18:27:56 INFO  Main:68 - Added a new soldier to the Air Force personnel list.
+2023-05-20 18:27:56 ERROR Army:49 - Personnel already exists.
+2023-05-20 18:27:56 ERROR Main:80 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-20 18:27:56 INFO  Army:35 - Expenses tracked successfully
+2023-05-20 18:27:56 INFO  Army:36 - Remaining budget for Air Force: $184999764000
+2023-05-20 18:27:56 INFO  Army:38 - Remaining total budget for 2023: $631000236000
+2023-05-20 18:27:56 INFO  Main:85 - You have enough money to spend
+2023-05-20 18:27:56 INFO  Army:33 - Expenses tracked successfully
+2023-05-20 18:27:56 INFO  Army:34 - Remaining budget for Air Force: $174999776000
+2023-05-20 18:27:56 INFO  Army:36 - Remaining total budget for 2023: $456000460000
+2023-05-20 18:27:56 INFO  Main:93 - You have enough money to spend
+2023-05-20 18:27:56 INFO  Main:105 - Officer Salary: $62000.0
+2023-05-20 18:27:56 INFO  Main:110 - Soldier Salary: $30500.0
+2023-05-20 18:28:01 INFO  Main:116 - Write your text here: 
+2023-05-20 18:28:01 INFO  Main:125 - Unique word count written to file successfully.
+2023-05-20 18:28:37 ERROR Main:51 - Invalid quantity: Invalid quantity for drones: 0
+2023-05-20 18:28:37 ERROR Army:46 - Personnel already exists.
+2023-05-20 18:28:37 ERROR Main:62 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-20 18:28:37 INFO  Main:68 - Added a new soldier to the Air Force personnel list.
+2023-05-20 18:28:37 ERROR Army:49 - Personnel already exists.
+2023-05-20 18:28:37 ERROR Main:80 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-20 18:28:37 INFO  Army:35 - Expenses tracked successfully
+2023-05-20 18:28:37 INFO  Army:36 - Remaining budget for Air Force: $184999764000
+2023-05-20 18:28:37 INFO  Army:38 - Remaining total budget for 2023: $631000236000
+2023-05-20 18:28:37 INFO  Main:85 - You have enough money to spend
+2023-05-20 18:28:37 INFO  Army:33 - Expenses tracked successfully
+2023-05-20 18:28:37 INFO  Army:34 - Remaining budget for Air Force: $174999776000
+2023-05-20 18:28:37 INFO  Army:36 - Remaining total budget for 2023: $456000460000
+2023-05-20 18:28:37 INFO  Main:93 - You have enough money to spend
+2023-05-20 18:28:37 INFO  Main:105 - Officer Salary: $62000.0
+2023-05-20 18:28:37 INFO  Main:110 - Soldier Salary: $30500.0
+2023-05-20 18:28:42 INFO  Main:117 - Write your text here: 
+2023-05-20 18:28:42 INFO  Main:126 - Unique word count written to file successfully.
+2023-05-20 18:29:21 ERROR Main:51 - Invalid quantity: Invalid quantity for drones: 0
+2023-05-20 18:29:21 ERROR Army:46 - Personnel already exists.
+2023-05-20 18:29:21 ERROR Main:62 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-20 18:29:21 INFO  Main:68 - Added a new soldier to the Air Force personnel list.
+2023-05-20 18:29:21 ERROR Army:49 - Personnel already exists.
+2023-05-20 18:29:21 ERROR Main:80 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-20 18:29:21 INFO  Army:35 - Expenses tracked successfully
+2023-05-20 18:29:21 INFO  Army:36 - Remaining budget for Air Force: $184999764000
+2023-05-20 18:29:21 INFO  Army:38 - Remaining total budget for 2023: $631000236000
+2023-05-20 18:29:21 INFO  Main:85 - You have enough money to spend
+2023-05-20 18:29:21 INFO  Army:33 - Expenses tracked successfully
+2023-05-20 18:29:21 INFO  Army:34 - Remaining budget for Air Force: $174999776000
+2023-05-20 18:29:21 INFO  Army:36 - Remaining total budget for 2023: $456000460000
+2023-05-20 18:29:21 INFO  Main:93 - You have enough money to spend
+2023-05-20 18:29:21 INFO  Main:105 - Officer Salary: $62000.0
+2023-05-20 18:29:21 INFO  Main:110 - Soldier Salary: $30500.0
+2023-05-20 18:29:52 INFO  Main:118 - Write your text here: 
+2023-05-20 18:29:52 INFO  Main:127 - Unique word count written to file successfully.
+2023-05-20 18:33:32 ERROR Main:51 - Invalid quantity: Invalid quantity for drones: 0
+2023-05-20 18:33:32 ERROR Army:46 - Personnel already exists.
+2023-05-20 18:33:32 ERROR Main:62 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-20 18:33:32 INFO  Main:68 - Added a new soldier to the Air Force personnel list.
+2023-05-20 18:33:32 ERROR Army:49 - Personnel already exists.
+2023-05-20 18:33:32 ERROR Main:80 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-20 18:33:32 INFO  Army:35 - Expenses tracked successfully
+2023-05-20 18:33:32 INFO  Army:36 - Remaining budget for Air Force: $184999764000
+2023-05-20 18:33:32 INFO  Army:38 - Remaining total budget for 2023: $631000236000
+2023-05-20 18:33:32 INFO  Main:85 - You have enough money to spend
+2023-05-20 18:33:32 INFO  Army:33 - Expenses tracked successfully
+2023-05-20 18:33:32 INFO  Army:34 - Remaining budget for Air Force: $174999776000
+2023-05-20 18:33:32 INFO  Army:36 - Remaining total budget for 2023: $456000460000
+2023-05-20 18:33:32 INFO  Main:93 - You have enough money to spend
+2023-05-20 18:33:32 INFO  Main:105 - Officer Salary: $62000.0
+2023-05-20 18:33:32 INFO  Main:110 - Soldier Salary: $30500.0
+2023-05-20 18:33:35 INFO  Main:117 - Write your text here: 
+2023-05-20 18:33:43 INFO  Main:126 - Unique word count written to file successfully.
+2023-05-20 18:34:24 ERROR Main:51 - Invalid quantity: Invalid quantity for drones: 0
+2023-05-20 18:34:24 ERROR Army:46 - Personnel already exists.
+2023-05-20 18:34:24 ERROR Main:62 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-20 18:34:24 INFO  Main:68 - Added a new soldier to the Air Force personnel list.
+2023-05-20 18:34:24 ERROR Army:49 - Personnel already exists.
+2023-05-20 18:34:24 ERROR Main:80 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-20 18:34:24 INFO  Army:35 - Expenses tracked successfully
+2023-05-20 18:34:24 INFO  Army:36 - Remaining budget for Air Force: $184999764000
+2023-05-20 18:34:24 INFO  Army:38 - Remaining total budget for 2023: $631000236000
+2023-05-20 18:34:24 INFO  Main:85 - You have enough money to spend
+2023-05-20 18:34:24 INFO  Army:33 - Expenses tracked successfully
+2023-05-20 18:34:24 INFO  Army:34 - Remaining budget for Air Force: $174999776000
+2023-05-20 18:34:24 INFO  Army:36 - Remaining total budget for 2023: $456000460000
+2023-05-20 18:34:24 INFO  Main:93 - You have enough money to spend
+2023-05-20 18:34:24 INFO  Main:105 - Officer Salary: $62000.0
+2023-05-20 18:34:24 INFO  Main:110 - Soldier Salary: $30500.0
+2023-05-20 18:34:33 INFO  Main:117 - Write your text here: 
+2023-05-20 18:34:49 INFO  Main:126 - Unique word count written to file successfully.
+2023-05-20 18:35:32 ERROR Main:51 - Invalid quantity: Invalid quantity for drones: 0
+2023-05-20 18:35:32 ERROR Army:46 - Personnel already exists.
+2023-05-20 18:35:32 ERROR Main:62 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-20 18:35:32 INFO  Main:68 - Added a new soldier to the Air Force personnel list.
+2023-05-20 18:35:32 ERROR Army:49 - Personnel already exists.
+2023-05-20 18:35:32 ERROR Main:80 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-20 18:35:32 INFO  Army:35 - Expenses tracked successfully
+2023-05-20 18:35:32 INFO  Army:36 - Remaining budget for Air Force: $184999764000
+2023-05-20 18:35:32 INFO  Army:38 - Remaining total budget for 2023: $631000236000
+2023-05-20 18:35:32 INFO  Main:85 - You have enough money to spend
+2023-05-20 18:35:32 INFO  Army:33 - Expenses tracked successfully
+2023-05-20 18:35:32 INFO  Army:34 - Remaining budget for Air Force: $174999776000
+2023-05-20 18:35:32 INFO  Army:36 - Remaining total budget for 2023: $456000460000
+2023-05-20 18:35:32 INFO  Main:93 - You have enough money to spend
+2023-05-20 18:35:32 INFO  Main:105 - Officer Salary: $62000.0
+2023-05-20 18:35:32 INFO  Main:110 - Soldier Salary: $30500.0
+2023-05-20 18:35:35 INFO  Main:117 - Write your text here: 
+2023-05-20 18:35:43 INFO  Main:126 - Unique word count written to file successfully.
+2023-05-20 18:36:03 ERROR Main:51 - Invalid quantity: Invalid quantity for drones: 0
+2023-05-20 18:36:03 ERROR Army:46 - Personnel already exists.
+2023-05-20 18:36:03 ERROR Main:62 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-20 18:36:03 INFO  Main:68 - Added a new soldier to the Air Force personnel list.
+2023-05-20 18:36:03 ERROR Army:49 - Personnel already exists.
+2023-05-20 18:36:03 ERROR Main:80 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-20 18:36:03 INFO  Army:35 - Expenses tracked successfully
+2023-05-20 18:36:03 INFO  Army:36 - Remaining budget for Air Force: $184999764000
+2023-05-20 18:36:03 INFO  Army:38 - Remaining total budget for 2023: $631000236000
+2023-05-20 18:36:03 INFO  Main:85 - You have enough money to spend
+2023-05-20 18:36:03 INFO  Army:33 - Expenses tracked successfully
+2023-05-20 18:36:03 INFO  Army:34 - Remaining budget for Air Force: $174999776000
+2023-05-20 18:36:03 INFO  Army:36 - Remaining total budget for 2023: $456000460000
+2023-05-20 18:36:03 INFO  Main:93 - You have enough money to spend
+2023-05-20 18:36:03 INFO  Main:105 - Officer Salary: $62000.0
+2023-05-20 18:36:03 INFO  Main:110 - Soldier Salary: $30500.0
+2023-05-20 18:36:05 INFO  Main:117 - Write your text here: 
+2023-05-20 18:36:20 INFO  Main:126 - Unique word count written to file successfully.
+2023-05-20 18:37:29 ERROR Main:51 - Invalid quantity: Invalid quantity for drones: 0
+2023-05-20 18:37:29 ERROR Army:46 - Personnel already exists.
+2023-05-20 18:37:29 ERROR Main:62 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-20 18:37:29 INFO  Main:68 - Added a new soldier to the Air Force personnel list.
+2023-05-20 18:37:29 ERROR Army:49 - Personnel already exists.
+2023-05-20 18:37:29 ERROR Main:80 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-20 18:37:29 INFO  Army:35 - Expenses tracked successfully
+2023-05-20 18:37:29 INFO  Army:36 - Remaining budget for Air Force: $184999764000
+2023-05-20 18:37:29 INFO  Army:38 - Remaining total budget for 2023: $631000236000
+2023-05-20 18:37:29 INFO  Main:85 - You have enough money to spend
+2023-05-20 18:37:29 INFO  Army:33 - Expenses tracked successfully
+2023-05-20 18:37:29 INFO  Army:34 - Remaining budget for Air Force: $174999776000
+2023-05-20 18:37:29 INFO  Army:36 - Remaining total budget for 2023: $456000460000
+2023-05-20 18:37:29 INFO  Main:93 - You have enough money to spend
+2023-05-20 18:37:29 INFO  Main:105 - Officer Salary: $62000.0
+2023-05-20 18:37:29 INFO  Main:110 - Soldier Salary: $30500.0
+2023-05-20 18:37:32 INFO  Main:117 - Write your text here: 
+2023-05-20 18:37:47 INFO  Main:126 - Unique word count written to file successfully.
+2023-05-20 18:41:11 ERROR Main:51 - Invalid quantity: Invalid quantity for drones: 0
+2023-05-20 18:41:11 ERROR Army:46 - Personnel already exists.
+2023-05-20 18:41:11 ERROR Main:62 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-20 18:41:11 INFO  Main:68 - Added a new soldier to the Air Force personnel list.
+2023-05-20 18:41:11 ERROR Army:49 - Personnel already exists.
+2023-05-20 18:41:11 ERROR Main:80 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-20 18:41:11 INFO  Army:35 - Expenses tracked successfully
+2023-05-20 18:41:11 INFO  Army:36 - Remaining budget for Air Force: $184999764000
+2023-05-20 18:41:11 INFO  Army:38 - Remaining total budget for 2023: $631000236000
+2023-05-20 18:41:11 INFO  Main:85 - You have enough money to spend
+2023-05-20 18:41:11 INFO  Army:33 - Expenses tracked successfully
+2023-05-20 18:41:11 INFO  Army:34 - Remaining budget for Air Force: $174999776000
+2023-05-20 18:41:11 INFO  Army:36 - Remaining total budget for 2023: $456000460000
+2023-05-20 18:41:11 INFO  Main:93 - You have enough money to spend
+2023-05-20 18:41:11 INFO  Main:105 - Officer Salary: $62000.0
+2023-05-20 18:41:11 INFO  Main:110 - Soldier Salary: $30500.0
+2023-05-20 18:41:53 INFO  Main:117 - Write your text here: 
+2023-05-20 18:42:17 INFO  Main:126 - Unique word count written to file successfully.
+2023-05-20 23:17:27 INFO  Files:18 - Enter your location here
+2023-05-20 23:18:06 INFO  Files:18 - Enter your location here
+2023-05-20 23:20:22 INFO  Files:18 - Enter your location here
+2023-05-20 23:20:50 INFO  Files:23 - Write your text here: 
+2023-05-20 23:20:50 INFO  Files:40 - Unique word count written to file successfully.
+2023-05-20 23:27:35 INFO  Files:18 - Enter your location here
+2023-05-20 23:28:16 INFO  Files:24 - Write your text here: 
+2023-05-20 23:28:39 INFO  Files:38 - Unique word count written to file successfully.
+2023-05-20 23:32:55 INFO  Files:18 - Enter your location here:
+2023-05-20 23:33:34 INFO  Files:24 - Write your text here: 
+2023-05-20 23:34:00 INFO  Files:32 - Count of unique words written to file successfully3
+2023-05-20 23:35:00 INFO  Files:18 - Enter your location here:
+2023-05-21 00:07:30 INFO  Files:18 - Enter your location here:
+2023-05-23 00:49:10 INFO  Drones:17 - Enter a new cost: 
+2023-05-23 00:49:30 INFO  Drones:20 - Enter a new cost: 
+2023-05-23 00:49:37 INFO  Drones:23 - Enter a new quantity: 
+2023-05-23 00:49:43 INFO  Main:45 - Military equipments successfully added to the list
+2023-05-23 00:49:43 ERROR Army:46 - Personnel already exists.
+2023-05-23 00:49:43 ERROR Main:58 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-23 00:49:43 INFO  Main:64 - Added a new soldier to the Air Force personnel list.
+2023-05-23 00:49:43 ERROR Army:49 - Personnel already exists.
+2023-05-23 00:49:43 ERROR Main:76 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-23 00:49:43 INFO  Army:35 - Expenses tracked successfully
+2023-05-23 00:49:43 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-23 00:49:43 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-23 00:49:43 INFO  Main:81 - You have enough money to spend
+2023-05-23 00:49:43 INFO  Army:33 - Expenses tracked successfully
+2023-05-23 00:49:43 INFO  Army:34 - Remaining budget for Air Force: $174998776000
+2023-05-23 00:49:43 INFO  Army:36 - Remaining total budget for 2023: $456004960000
+2023-05-23 00:49:43 INFO  Main:89 - You have enough money to spend
+2023-05-23 00:49:43 INFO  Main:101 - Officer Salary: $62000.0
+2023-05-23 00:49:43 INFO  Main:106 - Soldier Salary: $30500.0
+2023-05-23 00:50:17 INFO  Drones:17 - Enter a new cost: 
+2023-05-23 00:50:20 INFO  Drones:20 - Enter a new cost: 
+2023-05-23 00:50:25 INFO  Drones:23 - Enter a new quantity: 
+2023-05-23 00:50:29 INFO  Main:45 - Military equipments successfully added to the list
+2023-05-23 00:50:29 ERROR Army:46 - Personnel already exists.
+2023-05-23 00:50:29 ERROR Main:58 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-23 00:50:29 INFO  Main:64 - Added a new soldier to the Air Force personnel list.
+2023-05-23 00:50:29 ERROR Army:49 - Personnel already exists.
+2023-05-23 00:50:29 ERROR Main:76 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-23 00:50:29 INFO  Army:35 - Expenses tracked successfully
+2023-05-23 00:50:29 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-23 00:50:29 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-23 00:50:29 INFO  Main:81 - You have enough money to spend
+2023-05-23 00:50:29 INFO  Army:33 - Expenses tracked successfully
+2023-05-23 00:50:29 INFO  Army:34 - Remaining budget for Air Force: $174998776000
+2023-05-23 00:50:29 INFO  Army:36 - Remaining total budget for 2023: $456004960000
+2023-05-23 00:50:29 INFO  Main:89 - You have enough money to spend
+2023-05-23 00:50:29 INFO  Main:101 - Officer Salary: $62000.0
+2023-05-23 00:50:29 INFO  Main:106 - Soldier Salary: $30500.0
+2023-05-23 00:50:55 INFO  Drones:17 - Enter a new cost: 
+2023-05-23 00:51:07 INFO  Drones:20 - Enter a new cost: 
+2023-05-23 00:51:09 INFO  Drones:23 - Enter a new quantity: 
+2023-05-23 00:52:04 INFO  Main:45 - Military equipments successfully added to the list
+2023-05-23 00:52:23 ERROR Army:46 - Personnel already exists.
+2023-05-23 00:52:24 ERROR Main:58 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-23 00:52:31 INFO  Main:64 - Added a new soldier to the Air Force personnel list.
+2023-05-23 00:52:34 ERROR Army:49 - Personnel already exists.
+2023-05-23 00:52:34 ERROR Main:76 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-23 00:52:36 INFO  Army:35 - Expenses tracked successfully
+2023-05-23 00:52:36 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-23 00:52:36 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-23 00:52:36 INFO  Main:81 - You have enough money to spend
+2023-05-23 00:52:37 INFO  Army:33 - Expenses tracked successfully
+2023-05-23 00:52:37 INFO  Army:34 - Remaining budget for Air Force: $174998776000
+2023-05-23 00:52:37 INFO  Army:36 - Remaining total budget for 2023: $456004960000
+2023-05-23 00:52:40 INFO  Main:89 - You have enough money to spend
+2023-05-23 00:52:42 INFO  Main:101 - Officer Salary: $62000.0
+2023-05-23 00:52:44 INFO  Main:106 - Soldier Salary: $30500.0
+2023-05-23 00:55:20 INFO  Drones:17 - Enter a new name: 
+2023-05-23 00:55:25 INFO  Drones:20 - Enter a new cost: 
+2023-05-23 00:55:33 INFO  Drones:23 - Enter a new quantity: 
+2023-05-23 00:55:38 INFO  Main:45 - Military equipments successfully added to the list
+2023-05-23 00:55:38 ERROR Army:46 - Personnel already exists.
+2023-05-23 00:55:38 ERROR Main:58 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-23 00:55:38 INFO  Main:64 - Added a new soldier to the Air Force personnel list.
+2023-05-23 00:55:38 ERROR Army:49 - Personnel already exists.
+2023-05-23 00:55:38 ERROR Main:76 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-23 00:55:38 INFO  Army:35 - Expenses tracked successfully
+2023-05-23 00:55:38 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-23 00:55:38 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-23 00:55:38 INFO  Main:81 - You have enough money to spend
+2023-05-23 00:55:38 INFO  Army:33 - Expenses tracked successfully
+2023-05-23 00:55:38 INFO  Army:34 - Remaining budget for Air Force: $174998776000
+2023-05-23 00:55:38 INFO  Army:36 - Remaining total budget for 2023: $456004960000
+2023-05-23 00:55:38 INFO  Main:89 - You have enough money to spend
+2023-05-23 00:55:38 INFO  Main:101 - Officer Salary: $62000.0
+2023-05-23 00:55:38 INFO  Main:106 - Soldier Salary: $30500.0
+2023-05-24 05:08:50 INFO  Drones:16 - Enter a new name: 
+2023-05-24 05:09:36 INFO  Drones:19 - Enter a new cost: 
+2023-05-24 05:09:43 INFO  Drones:22 - Enter a new quantity: 
+2023-05-24 05:09:51 INFO  Main:44 - Military equipments successfully added to the list
+2023-05-24 05:09:51 INFO  Main:53 - Military equipments successfully added to the list
+2023-05-24 05:09:51 INFO  Main:61 - Military equipments successfully added to the list
+2023-05-24 05:09:51 INFO  Main:69 - Military equipments successfully added to the list
+2023-05-24 05:09:51 INFO  Main:77 - Added a new soldier to the Army personnel list.
+2023-05-24 05:09:51 ERROR Army:46 - Personnel already exists.
+2023-05-24 05:09:51 ERROR Main:90 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-24 05:09:51 INFO  Main:99 - Added a new soldier to the Air Force personnel list.
+2023-05-24 05:09:51 ERROR Army:49 - Personnel already exists.
+2023-05-24 05:09:51 ERROR Main:113 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-24 05:09:51 INFO  Army:35 - Expenses tracked successfully
+2023-05-24 05:09:51 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-24 05:09:51 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-24 05:09:51 INFO  Main:120 - You have enough money to spend
+2023-05-24 05:09:51 INFO  Army:33 - Expenses tracked successfully
+2023-05-24 05:09:51 INFO  Army:34 - Remaining budget for Air Force: $174998744000
+2023-05-24 05:09:51 INFO  Army:36 - Remaining total budget for 2023: $456004992000
+2023-05-24 05:09:51 INFO  Main:128 - You have enough money to spend
+2023-05-24 05:09:51 INFO  Main:138 - Officer Salary: $62000.0
+2023-05-24 05:09:51 INFO  Main:147 - Soldier Salary: $30500.0
+2023-05-24 05:09:51 INFO  Main:156 - Pilot Salary: $33000.0
+2023-05-24 05:16:01 INFO  Drones:16 - Enter a new name: 
+2023-05-24 05:16:13 INFO  Drones:19 - Enter a new cost: 
+2023-05-24 05:16:17 INFO  Drones:22 - Enter a new quantity: 
+2023-05-24 05:16:19 INFO  Main:44 - Military equipments successfully added to the list
+2023-05-24 05:16:19 INFO  Main:53 - Military equipments successfully added to the list
+2023-05-24 05:16:19 INFO  Main:61 - Military equipments successfully added to the list
+2023-05-24 05:16:19 INFO  Main:69 - Military equipments successfully added to the list
+2023-05-24 05:16:19 INFO  Main:77 - Added a new soldier to the Army personnel list.
+2023-05-24 05:16:19 ERROR Army:46 - Personnel already exists.
+2023-05-24 05:16:19 ERROR Main:90 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-24 05:16:19 INFO  Main:99 - Added a new soldier to the Air Force personnel list.
+2023-05-24 05:16:19 ERROR Army:49 - Personnel already exists.
+2023-05-24 05:16:19 ERROR Main:113 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-24 05:16:19 INFO  Army:35 - Expenses tracked successfully
+2023-05-24 05:16:19 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-24 05:16:19 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-24 05:16:19 INFO  Main:120 - You have enough money to spend
+2023-05-24 05:16:19 INFO  Army:33 - Expenses tracked successfully
+2023-05-24 05:16:19 INFO  Army:34 - Remaining budget for Air Force: $174998744000
+2023-05-24 05:16:19 INFO  Army:36 - Remaining total budget for 2023: $456004992000
+2023-05-24 05:16:19 INFO  Main:128 - You have enough money to spend
+2023-05-24 05:16:19 INFO  Main:138 - Officer Salary: $62000.0
+2023-05-24 05:16:19 INFO  Main:147 - Soldier Mike Tyson's salary: $30500.0
+2023-05-24 05:16:19 INFO  Main:156 - Pilot Michael Jordan's salary: $33000.0
+2023-05-24 05:19:21 INFO  Drones:16 - Enter a new name: 
+2023-05-24 05:19:38 INFO  Drones:19 - Enter a new cost: 
+2023-05-24 05:19:42 INFO  Drones:22 - Enter a new quantity: 
+2023-05-24 05:19:45 INFO  Main:44 - Military equipments successfully added to the list
+2023-05-24 05:19:45 INFO  Main:53 - Military equipments successfully added to the list
+2023-05-24 05:19:45 INFO  Main:61 - Military equipments successfully added to the list
+2023-05-24 05:19:45 INFO  Main:69 - Military equipments successfully added to the list
+2023-05-24 05:19:45 INFO  Main:77 - Added a new soldier to the Army personnel list.
+2023-05-24 05:19:45 ERROR Army:46 - Personnel already exists.
+2023-05-24 05:19:45 ERROR Main:90 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-24 05:19:45 INFO  Main:99 - Added a new soldier to the Air Force personnel list.
+2023-05-24 05:19:45 ERROR Army:49 - Personnel already exists.
+2023-05-24 05:19:45 ERROR Main:113 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-24 05:19:45 INFO  Army:35 - Expenses tracked successfully
+2023-05-24 05:19:45 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-24 05:19:45 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-24 05:19:45 INFO  Main:120 - You have enough money to spend
+2023-05-24 05:19:45 INFO  Army:33 - Expenses tracked successfully
+2023-05-24 05:19:45 INFO  Army:34 - Remaining budget for Air Force: $174998744000
+2023-05-24 05:19:45 INFO  Army:36 - Remaining total budget for 2023: $456004992000
+2023-05-24 05:19:45 INFO  Main:128 - You have enough money to spend
+2023-05-24 05:19:45 INFO  Main:138 - Officer John Smith's salary: $62000.0
+2023-05-24 05:19:45 INFO  Main:147 - Soldier Mike Tyson's salary: $30500.0
+2023-05-24 05:19:45 INFO  Main:156 - Pilot Michael Jordan's salary: $33000.0
+2023-05-24 05:21:26 INFO  Drones:16 - Enter a new name: 
+2023-05-24 05:21:34 INFO  Drones:19 - Enter a new cost: 
+2023-05-24 05:21:37 INFO  Drones:22 - Enter a new quantity: 
+2023-05-24 05:21:38 INFO  Main:44 - Military equipments successfully added to the list
+2023-05-24 05:21:38 INFO  Main:53 - Military equipments successfully added to the list
+2023-05-24 05:21:38 INFO  Main:61 - Military equipments successfully added to the list
+2023-05-24 05:21:38 INFO  Main:69 - Military equipments successfully added to the list
+2023-05-24 05:21:38 INFO  Main:77 - Added a new soldier to the Army personnel list.
+2023-05-24 05:21:38 ERROR Army:46 - Personnel already exists.
+2023-05-24 05:21:38 ERROR Main:90 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-24 05:21:38 INFO  Main:99 - Added a new soldier to the Air Force personnel list:John Smith is a soldier with rank Sergeant and salary 52000.0
+2023-05-24 05:21:38 ERROR Army:49 - Personnel already exists.
+2023-05-24 05:21:38 ERROR Main:113 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-24 05:21:38 INFO  Army:35 - Expenses tracked successfully
+2023-05-24 05:21:38 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-24 05:21:38 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-24 05:21:38 INFO  Main:120 - You have enough money to spend
+2023-05-24 05:21:38 INFO  Army:33 - Expenses tracked successfully
+2023-05-24 05:21:38 INFO  Army:34 - Remaining budget for Air Force: $174998744000
+2023-05-24 05:21:38 INFO  Army:36 - Remaining total budget for 2023: $456004992000
+2023-05-24 05:21:38 INFO  Main:128 - You have enough money to spend
+2023-05-24 05:21:38 INFO  Main:138 - Officer John Smith's salary: $62000.0
+2023-05-24 05:21:38 INFO  Main:147 - Soldier Mike Tyson's salary: $30500.0
+2023-05-24 05:21:38 INFO  Main:156 - Pilot Michael Jordan's salary: $33000.0
+2023-05-24 06:11:35 INFO  Drones:17 - Enter a new name: 
+2023-05-24 06:11:44 INFO  Drones:20 - Enter a new cost: 
+2023-05-24 06:11:49 INFO  Drones:23 - Enter a new quantity: 
+2023-05-24 06:11:54 INFO  Drones:26 - Enter a branch
+2023-05-24 06:11:54 INFO  Main:46 - Military equipments successfully added to the list
+2023-05-24 06:11:54 INFO  Main:55 - Military equipments successfully added to the list
+2023-05-24 06:11:54 INFO  Main:63 - Military equipments successfully added to the list
+2023-05-24 06:11:54 INFO  Main:71 - Military equipments successfully added to the list
+2023-05-24 06:11:54 INFO  Main:79 - Added a new soldier to the Army personnel list.
+2023-05-24 06:11:54 ERROR Army:47 - Personnel already exists.
+2023-05-24 06:11:54 ERROR Main:92 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-24 06:11:54 INFO  Main:101 - Added a new soldier to the Air Force personnel list: 
+John Smith is a soldier with rank Sergeant and salary 52000.0
+2023-05-24 06:11:54 ERROR Army:49 - Personnel already exists.
+2023-05-24 06:11:54 ERROR Main:115 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-24 06:11:54 INFO  Army:35 - Expenses tracked successfully
+2023-05-24 06:11:54 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-24 06:11:54 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-24 06:11:54 INFO  Main:122 - You have enough money to spend
+2023-05-24 06:11:54 INFO  Army:34 - Expenses tracked successfully
+2023-05-24 06:11:54 INFO  Army:35 - Remaining budget for Air Force: $174998744000
+2023-05-24 06:11:54 INFO  Army:37 - Remaining total budget for 2023: $456004992000
+2023-05-24 06:11:54 INFO  Main:130 - You have enough money to spend
+2023-05-24 06:11:54 INFO  Main:140 - Officer John Smith's salary: $62000.0
+2023-05-24 06:11:54 INFO  Main:149 - Soldier Stella Meyer's salary: $30500.0
+2023-05-24 06:11:54 INFO  Main:158 - Pilot Michael Jordan's salary: $33000.0
+2023-05-24 06:13:14 INFO  Drones:17 - Enter a new name: 
+2023-05-24 06:13:19 INFO  Drones:20 - Enter a new cost: 
+2023-05-24 06:13:23 INFO  Drones:23 - Enter a new quantity: 
+2023-05-24 06:13:25 INFO  Drones:26 - Enter a branch: 
+2023-05-24 06:13:25 INFO  Main:46 - Military equipments successfully added to the list
+2023-05-24 06:13:25 INFO  Main:55 - Military equipments successfully added to the list
+2023-05-24 06:13:25 INFO  Main:63 - Military equipments successfully added to the list
+2023-05-24 06:13:25 INFO  Main:71 - Military equipments successfully added to the list
+2023-05-24 06:13:25 INFO  Main:79 - Added a new soldier to the Army personnel list.
+2023-05-24 06:13:25 ERROR Army:47 - Personnel already exists.
+2023-05-24 06:13:25 ERROR Main:92 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-24 06:13:25 INFO  Main:101 - Added a new soldier to the Air Force personnel list: 
+John Smith is a soldier with rank Sergeant and salary 52000.0
+2023-05-24 06:13:25 ERROR Army:49 - Personnel already exists.
+2023-05-24 06:13:25 ERROR Main:115 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-24 06:13:25 INFO  Army:35 - Expenses tracked successfully
+2023-05-24 06:13:25 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-24 06:13:25 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-24 06:13:25 INFO  Main:122 - You have enough money to spend
+2023-05-24 06:13:25 INFO  Army:34 - Expenses tracked successfully
+2023-05-24 06:13:25 INFO  Army:35 - Remaining budget for Air Force: $174998744000
+2023-05-24 06:13:25 INFO  Army:37 - Remaining total budget for 2023: $456004992000
+2023-05-24 06:13:25 INFO  Main:130 - You have enough money to spend
+2023-05-24 06:13:25 INFO  Main:140 - Officer John Smith's salary: $62000.0
+2023-05-24 06:13:25 INFO  Main:149 - Soldier Stella Meyer's salary: $30500.0
+2023-05-24 06:13:25 INFO  Main:158 - Pilot Michael Jordan's salary: $33000.0
+2023-05-24 06:19:18 INFO  Drones:17 - Enter a new name: 
+2023-05-24 06:19:25 INFO  Drones:20 - Enter a new cost: 
+2023-05-24 06:19:27 INFO  Drones:23 - Enter a new quantity: 
+2023-05-24 06:19:30 INFO  Drones:26 - Enter a branch: 
+2023-05-24 06:19:30 INFO  Main:46 - Military equipments successfully added to the list
+2023-05-24 06:19:30 INFO  Main:55 - Military equipments successfully added to the list
+2023-05-24 06:19:30 INFO  Main:63 - Military equipments successfully added to the list
+2023-05-24 06:19:30 INFO  Main:71 - Military equipments successfully added to the list
+2023-05-24 06:19:30 INFO  Main:79 - Added a new soldier to the Army personnel list.
+2023-05-24 06:19:30 ERROR Army:47 - Personnel already exists.
+2023-05-24 06:19:30 ERROR Main:92 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-24 06:19:30 INFO  Main:101 - Added a new soldier to the Air Force personnel list: 
+John Smith is a soldier with rank Sergeant and salary 52000.0
+2023-05-24 06:19:30 ERROR Army:49 - Personnel already exists.
+2023-05-24 06:19:30 ERROR Main:115 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-24 06:19:30 INFO  Army:35 - Expenses tracked successfully
+2023-05-24 06:19:30 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-24 06:19:30 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-24 06:19:30 INFO  Main:122 - You have enough money to spend
+2023-05-24 06:19:30 INFO  Army:34 - Expenses tracked successfully
+2023-05-24 06:19:30 INFO  Army:35 - Remaining budget for Air Force: $174998744000
+2023-05-24 06:19:30 INFO  Army:37 - Remaining total budget for 2023: $456004992000
+2023-05-24 06:19:30 INFO  Main:130 - You have enough money to spend
+2023-05-24 06:19:30 INFO  Main:140 - Officer John Smith's salary: $62000.0
+2023-05-24 06:19:30 INFO  Main:149 - Soldier Stella Meyer's salary: $30500.0
+2023-05-24 06:19:30 INFO  Main:158 - Pilot Michael Jordan's salary: $33000.0
+2023-05-24 06:21:32 INFO  Drones:17 - Enter a new name: 
+2023-05-24 06:21:42 INFO  Drones:20 - Enter a new cost: 
+2023-05-24 06:21:45 INFO  Drones:23 - Enter a new quantity: 
+2023-05-24 06:21:47 INFO  Drones:26 - Enter a branch: 
+2023-05-24 06:21:47 INFO  Main:46 - Military equipments successfully added to the list
+2023-05-24 06:21:47 INFO  Main:55 - Military equipments successfully added to the list
+2023-05-24 06:21:47 INFO  Main:63 - Military equipments successfully added to the list
+2023-05-24 06:21:47 INFO  Main:71 - Military equipments successfully added to the list
+2023-05-24 06:21:47 INFO  Main:79 - Added a new soldier to the Army personnel list.
+2023-05-24 06:21:47 ERROR Army:47 - Personnel already exists.
+2023-05-24 06:21:47 ERROR Main:92 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-24 06:21:47 INFO  Main:101 - Added a new soldier to the Air Force personnel list: 
+John Smith is a soldier with rank Sergeant and salary 52000.0
+2023-05-24 06:21:47 ERROR Army:49 - Personnel already exists.
+2023-05-24 06:21:47 ERROR Main:115 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-24 06:21:47 INFO  Army:35 - Expenses tracked successfully
+2023-05-24 06:21:47 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-24 06:21:47 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-24 06:21:47 INFO  Main:122 - You have enough money to spend
+2023-05-24 06:21:47 INFO  Army:34 - Expenses tracked successfully
+2023-05-24 06:21:47 INFO  Army:35 - Remaining budget for Air Force: $174998744000
+2023-05-24 06:21:47 INFO  Army:37 - Remaining total budget for 2023: $456004992000
+2023-05-24 06:21:47 INFO  Main:130 - You have enough money to spend
+2023-05-24 06:21:47 INFO  Main:140 - Officer John Smith's salary: $62000.0
+2023-05-24 06:21:47 INFO  Main:149 - Soldier Stella Meyer's salary: $30500.0
+2023-05-24 06:21:47 INFO  Main:158 - Pilot Michael Jordan's salary: $33000.0
+2023-05-24 06:28:23 INFO  Drones:17 - Enter a new name: 
+2023-05-24 06:28:29 INFO  Drones:20 - Enter a new cost: 
+2023-05-24 06:28:33 INFO  Drones:23 - Enter a new quantity: 
+2023-05-24 06:28:35 INFO  Drones:26 - Enter a branch: 
+2023-05-24 06:28:35 INFO  Main:46 - Military equipments successfully added to the list
+2023-05-24 06:28:35 INFO  Main:55 - Military equipments successfully added to the list
+2023-05-24 06:28:35 INFO  Main:63 - Military equipments successfully added to the list
+2023-05-24 06:28:35 INFO  Main:71 - Military equipments successfully added to the list
+2023-05-24 06:28:35 INFO  Main:79 - Added a new soldier to the Army personnel list.
+2023-05-24 06:28:35 ERROR Army:47 - Personnel already exists.
+2023-05-24 06:28:35 ERROR Main:92 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-24 06:28:35 INFO  Main:101 - Added a new soldier to the Air Force personnel list: 
+John Smith is a soldier with rank Sergeant and salary 52000.0
+2023-05-24 06:28:35 ERROR Army:49 - Personnel already exists.
+2023-05-24 06:28:35 ERROR Main:115 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-24 06:28:35 INFO  Army:35 - Expenses tracked successfully
+2023-05-24 06:28:35 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-24 06:28:35 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-24 06:28:35 INFO  Main:122 - You have enough money to spend
+2023-05-24 06:28:35 INFO  Army:34 - Expenses tracked successfully
+2023-05-24 06:28:35 INFO  Army:35 - Remaining budget for Air Force: $174998744000
+2023-05-24 06:28:35 INFO  Army:37 - Remaining total budget for 2023: $456004992000
+2023-05-24 06:28:35 INFO  Main:130 - You have enough money to spend
+2023-05-24 06:28:35 INFO  Main:140 - Officer John Smith's salary: $62000.0
+2023-05-24 06:28:35 INFO  Main:149 - Soldier Stella Meyer's salary: $30500.0
+2023-05-24 06:28:35 INFO  Main:158 - Pilot Michael Jordan's salary: $33000.0
+2023-05-24 06:29:23 INFO  Drones:17 - Enter a new name: 
+2023-05-24 06:29:29 INFO  Drones:20 - Enter a new cost: 
+2023-05-24 06:29:33 INFO  Drones:23 - Enter a new quantity: 
+2023-05-24 06:29:34 INFO  Drones:26 - Enter a branch: 
+2023-05-24 06:29:34 INFO  Main:46 - Military equipments successfully added to the list
+2023-05-24 06:29:34 INFO  Main:55 - Military equipments successfully added to the list
+2023-05-24 06:29:34 INFO  Main:63 - Military equipments successfully added to the list
+2023-05-24 06:29:34 INFO  Main:71 - Military equipments successfully added to the list
+2023-05-24 06:29:34 INFO  Main:79 - Added a new soldier to the Army personnel list.
+2023-05-24 06:29:34 ERROR Army:47 - Personnel already exists.
+2023-05-24 06:29:34 ERROR Main:92 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-24 06:29:34 INFO  Main:101 - Added a new soldier to the Air Force personnel list: 
+John Smith is a soldier with rank Sergeant and salary 52000.0
+2023-05-24 06:29:34 ERROR Army:49 - Personnel already exists.
+2023-05-24 06:29:34 ERROR Main:115 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-24 06:29:34 INFO  Army:35 - Expenses tracked successfully
+2023-05-24 06:29:34 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-24 06:29:34 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-24 06:29:34 INFO  Main:122 - You have enough money to spend
+2023-05-24 06:29:34 INFO  Army:34 - Expenses tracked successfully
+2023-05-24 06:29:34 INFO  Army:35 - Remaining budget for Air Force: $174998744000
+2023-05-24 06:29:34 INFO  Army:37 - Remaining total budget for 2023: $456004992000
+2023-05-24 06:29:34 INFO  Main:130 - You have enough money to spend
+2023-05-24 06:29:34 INFO  Main:140 - Officer John Smith's salary: $62000.0
+2023-05-24 06:29:34 INFO  Main:149 - Soldier Stella Meyer's salary: $30500.0
+2023-05-24 06:29:34 INFO  Main:158 - Pilot Michael Jordan's salary: $33000.0
+2023-05-24 06:29:58 INFO  Drones:17 - Enter a new name: 
+2023-05-24 06:30:03 INFO  Drones:20 - Enter a new cost: 
+2023-05-24 06:30:06 INFO  Drones:23 - Enter a new quantity: 
+2023-05-24 06:30:08 INFO  Drones:26 - Enter a branch: 
+2023-05-24 06:30:08 INFO  Main:46 - Military equipments successfully added to the list
+2023-05-24 06:30:08 INFO  Main:55 - Military equipments successfully added to the list
+2023-05-24 06:30:08 INFO  Main:63 - Military equipments successfully added to the list
+2023-05-24 06:30:08 INFO  Main:71 - Military equipments successfully added to the list
+2023-05-24 06:30:08 INFO  Main:79 - Added a new soldier to the Army personnel list.
+2023-05-24 06:30:08 ERROR Army:47 - Personnel already exists.
+2023-05-24 06:30:08 ERROR Main:92 - Failed to add a new Soldier to the Army personnel list: Duplicates not allowed
+2023-05-24 06:30:08 INFO  Main:101 - Added a new soldier to the Air Force personnel list: 
+John Smith is a soldier with rank Sergeant and salary 52000.0
+2023-05-24 06:30:08 ERROR Army:49 - Personnel already exists.
+2023-05-24 06:30:08 ERROR Main:115 - Failed to add a new soldier to the Air Force personnel list: Duplicates not allowed
+2023-05-24 06:30:08 INFO  Army:35 - Expenses tracked successfully
+2023-05-24 06:30:08 INFO  Army:36 - Remaining budget for Air Force: $184996264000
+2023-05-24 06:30:08 INFO  Army:38 - Remaining total budget for 2023: $631003736000
+2023-05-24 06:30:08 INFO  Main:122 - You have enough money to spend
+2023-05-24 06:30:08 INFO  Army:34 - Expenses tracked successfully
+2023-05-24 06:30:08 INFO  Army:35 - Remaining budget for Air Force: $174998744000
+2023-05-24 06:30:08 INFO  Army:37 - Remaining total budget for 2023: $456004992000
+2023-05-24 06:30:08 INFO  Main:130 - You have enough money to spend
+2023-05-24 06:30:08 INFO  Main:140 - Officer John Smith's salary: $62000.0
+2023-05-24 06:30:08 INFO  Main:149 - Soldier Stella Meyer's salary: $30500.0
+2023-05-24 06:30:08 INFO  Main:158 - Pilot Michael Jordan's salary: $33000.0
