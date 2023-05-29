@@ -1,5 +1,7 @@
 package com.laba.solvd.militaryProject.enums;
 
+import java.util.Scanner;
+
 public enum Branch {
         ARMY("Army"),
         NAVY("Navy"),
@@ -15,5 +17,16 @@ public enum Branch {
 
         public String getDisplayName() {
                 return displayName;
+        }
+
+        public static Branch selectBranch(Scanner scanner) {
+                String userInput = scanner.nextLine().toUpperCase();
+                for (Branch branch : Branch.values()) {
+                        if (branch.name().equals(userInput)) {
+                                return branch;
+                        }
+                }
+
+                return null;
         }
 }

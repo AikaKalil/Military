@@ -1,5 +1,7 @@
 package com.laba.solvd.militaryProject.enums;
 
+import java.util.Scanner;
+
 public enum SoldierRank {
     PRIVATE("Private", 500.0),
     CORPORAL("Corporal", 1000.0),
@@ -26,5 +28,14 @@ public enum SoldierRank {
         return bonus;
     }
 
+    public static SoldierRank selectRank(Scanner scanner) {
+        String userInput = scanner.nextLine().toUpperCase();
+        for (SoldierRank rank : SoldierRank.values()) {
+            if (rank.name().equals(userInput)) {
+                return rank;
+            }
+        }
 
+        return null;
+    }
 }

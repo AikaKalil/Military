@@ -1,5 +1,7 @@
 package com.laba.solvd.militaryProject.enums;
 
+import java.util.Scanner;
+
 public enum OfficerRank {
     SECOND_LIEUTENANT("Second Lieutenant", 3000.0),
     FIRST_LIEUTENANT("First Lieutenant", 4000.0),
@@ -26,5 +28,16 @@ public enum OfficerRank {
 
     public double getBonus() {
         return bonus;
+    }
+
+    public static OfficerRank selectRank(Scanner scanner) {
+        String userInput = scanner.nextLine().toUpperCase();
+        for (OfficerRank rank : OfficerRank.values()) {
+            if (rank.name().equals(userInput)) {
+                return rank;
+            }
+        }
+
+        return null;
     }
 }

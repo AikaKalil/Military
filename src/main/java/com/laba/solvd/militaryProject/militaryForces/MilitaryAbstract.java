@@ -1,46 +1,67 @@
 package com.laba.solvd.militaryProject.militaryForces;
 
-import com.laba.solvd.militaryProject.exceptions.InsufficientFundsException;
+import com.laba.solvd.militaryProject.customLinkedList.CustomLinkedList;
+import com.laba.solvd.militaryProject.interfaces.ManageInventory;
 import com.laba.solvd.militaryProject.militaryPersonnel.MilitaryPersonnelAbstract;
 import com.laba.solvd.militaryProject.militaryEquipments.MilitaryEquipmentAbstract;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
+import java.util.function.Predicate;
 
 public abstract class MilitaryAbstract {
     public static final Logger logger = LogManager.getLogger(Army.class);
     public static final long budgetFor2023 = 816_000_000_000L;
     public static long totalRemainingBudget=816_000_000_000L;
 
-    private ArrayList<MilitaryEquipmentAbstract> equipmentList;
-    private ArrayList<MilitaryPersonnelAbstract> personnelList;
+    private ArrayList<MilitaryEquipmentAbstract> equipmentList=new ArrayList<>();
+    private CustomLinkedList<MilitaryPersonnelAbstract> personnelList=new CustomLinkedList<>();
 
-    public MilitaryAbstract(ArrayList<MilitaryEquipmentAbstract> equipmentList, ArrayList<MilitaryPersonnelAbstract> personnelList) {
-        this.equipmentList = equipmentList;
-        this.personnelList = personnelList;
+    public MilitaryAbstract(ArrayList<MilitaryEquipmentAbstract> equipmentList){
+        this.equipmentList =equipmentList;
+     }
+
+    public MilitaryAbstract(CustomLinkedList<MilitaryPersonnelAbstract> personnelList){
+        this.personnelList =personnelList;
     }
+    public MilitaryAbstract(ArrayList<MilitaryEquipmentAbstract> equipmentList,CustomLinkedList<MilitaryPersonnelAbstract> personnelList){
+        this.equipmentList =equipmentList;
+        this.personnelList =personnelList;
+    }
+
+    ManageInventory manageInventory=new ManageInventory() {
+    @Override
+    public void addEquipment(MilitaryEquipmentAbstract equipment) {
+        equipmentList.add(equipment);
+    }
+
+    @Override
+    public void removeEquipment(MilitaryEquipmentAbstract equipment) {
+        equipmentList.remove(equipment);
+    }
+};
 
     public ArrayList<MilitaryEquipmentAbstract> getEquipmentList() {
         return equipmentList;
     }
 
-    public void setEquipmentList(ArrayList<MilitaryEquipmentAbstract> equipmentList) {
-        this.equipmentList = equipmentList;
-    }
-    public ArrayList<MilitaryPersonnelAbstract> getPersonnelList() {
+    public CustomLinkedList<MilitaryPersonnelAbstract> getPersonnelList() {
         return personnelList;
     }
 
-    public void setPersonnelList(ArrayList<MilitaryPersonnelAbstract> personnelList) {
+    public void setPersonnelList(CustomLinkedList<MilitaryPersonnelAbstract> personnelList) {
         this.personnelList = personnelList;
+    }
+    public void setEquipmentList(ArrayList<MilitaryEquipmentAbstract> equipmentList) {
+        this.equipmentList = equipmentList;
     }
 
 
     public double getEquipmentCost() {
         double totalCost = 0;
         for (MilitaryEquipmentAbstract equipment : equipmentList) {
-            totalCost += equipment.calculateCost();
+            totalCost += equipment.calculatePrice();
         }
         return totalCost;
     }
@@ -52,8 +73,6 @@ public abstract class MilitaryAbstract {
         }
         return totalSalary;
     }
-
-    public abstract long trackExpenses() throws InsufficientFundsException;
 
 }
 

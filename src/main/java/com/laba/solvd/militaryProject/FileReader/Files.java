@@ -14,13 +14,11 @@ import java.util.Set;
 public class Files {
     public static Logger log = Logger.getLogger(Files.class);
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        try {
+            Scanner input = new Scanner(System.in);
         log.info("Enter your location here:");
         String locationOfFile = input.nextLine();
-        try {
             File file = new File(locationOfFile);
-            Scanner scanner = new Scanner(file);
-
             log.info("Write your text here: ");
             String text = input.nextLine();
             String[] words = StringUtils.split(text);
@@ -28,7 +26,6 @@ public class Files {
             int count = uniqueWords.size();
        File outputFile = new File("newOne.txt");
         FileUtils.writeStringToFile(outputFile,Integer.toString(count));
-
         log.info("Count of unique words written to file successfully.");
     } catch (IOException e) {
         e.printStackTrace();

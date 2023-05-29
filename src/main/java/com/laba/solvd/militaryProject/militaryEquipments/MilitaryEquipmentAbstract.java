@@ -51,11 +51,12 @@ public abstract class MilitaryEquipmentAbstract implements CalculatePrice, GetIn
 
     @Override
     public String getInfo() {
-        return "Name: " + name + ", Cost: " + cost + ", Quantity: " + quantity;
+        return "Name: " + name + ", Cost: " + cost + ", Quantity: " + quantity+", Branch: "+branch;
     }
 
     @Override
-    public double calculateCost() {
+    public double calculatePrice() {
+
         return cost * quantity;
     }
 }

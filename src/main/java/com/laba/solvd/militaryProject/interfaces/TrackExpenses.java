@@ -1,7 +1,7 @@
 package com.laba.solvd.militaryProject.interfaces;
 
+import com.laba.solvd.militaryProject.exceptions.InsufficientFundsException;
+@FunctionalInterface
 public interface TrackExpenses {
-    double calculateEquipmentExpenses();
-    double calculatePersonnelExpenses();
-    double calculateTotalExpenses();
+    long trackExpenses() throws InsufficientFundsException;
 }

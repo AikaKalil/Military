@@ -5,5 +5,4 @@ import com.laba.solvd.militaryProject.militaryEquipments.MilitaryEquipmentAbstra
 public interface ManageInventory {
     void addEquipment(MilitaryEquipmentAbstract equipment);
     void removeEquipment(MilitaryEquipmentAbstract equipment);
-    boolean checkAvailability(MilitaryEquipmentAbstract equipment);
 }

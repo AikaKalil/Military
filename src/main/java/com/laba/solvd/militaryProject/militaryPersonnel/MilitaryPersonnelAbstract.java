@@ -10,22 +10,12 @@ import java.util.Objects;
 
 
 public abstract class MilitaryPersonnelAbstract implements CalculateSalary, GetInfo {
- public static Logger log = Logger.getLogger(Main.class);
+ public static Logger log = Logger.getLogger(MilitaryPersonnelAbstract.class);
     private String name;
     private double salary;
     private String rank;
-
     private Gender gender;
 
-
-    public MilitaryPersonnelAbstract(String name, double salary,String rank,Gender gender) {
-        this.name = name;
-        this.salary = salary;
-        this.rank = rank;
-        this.gender=gender;
-
-
-    }
     public MilitaryPersonnelAbstract(String name, double salary,Gender gender) {
         this.name = name;
         this.salary = salary;
