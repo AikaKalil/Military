@@ -1,5 +1,8 @@
+
+.idea/
 *.iml
-.idea
-out
-target
-test
+out/
+
+target/
+test/
+
