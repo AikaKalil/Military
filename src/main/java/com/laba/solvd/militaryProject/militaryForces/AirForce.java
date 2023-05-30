@@ -4,14 +4,17 @@ import com.laba.solvd.militaryProject.customLinkedList.CustomLinkedList;
 import com.laba.solvd.militaryProject.exceptions.DuplicatePersonnelException;
 import com.laba.solvd.militaryProject.exceptions.InsufficientFundsException;
 import com.laba.solvd.militaryProject.interfaces.CalculatePrice;
+import com.laba.solvd.militaryProject.interfaces.ManageInventory;
 import com.laba.solvd.militaryProject.interfaces.TrackExpenses;
 import com.laba.solvd.militaryProject.militaryPersonnel.MilitaryPersonnelAbstract;
 import com.laba.solvd.militaryProject.militaryEquipments.MilitaryEquipmentAbstract;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class AirForce extends MilitaryAbstract{
+public class AirForce extends MilitaryAbstract implements ManageInventory {
     private long airForceBudget=185000000000L;
+    private List<MilitaryEquipmentAbstract> equipmentList = new ArrayList<>();
 
     public AirForce(ArrayList<MilitaryEquipmentAbstract>equipmentList) {
         super(equipmentList);
@@ -56,12 +59,16 @@ public class AirForce extends MilitaryAbstract{
 
     public CalculatePrice calculateEquipmentPrice = () -> {
         double totalCost =getEquipmentList().stream().mapToDouble(MilitaryEquipmentAbstract::calculatePrice).sum();
-//        for (MilitaryEquipmentAbstract equipment : getEquipmentList()) {
-//            totalCost += equipment.calculatePrice();
-//        }
         return totalCost;
     };
 
+    @Override
+    public void addEquipment(MilitaryEquipmentAbstract equipment) {
+        equipmentList.add(equipment);
+    }
 
-
+    @Override
+    public void removeEquipment(MilitaryEquipmentAbstract equipment) {
+        equipmentList.remove(equipment);
+    }
 }

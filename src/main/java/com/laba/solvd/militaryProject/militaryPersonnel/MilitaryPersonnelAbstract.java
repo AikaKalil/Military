@@ -1,11 +1,9 @@
 package com.laba.solvd.militaryProject.militaryPersonnel;
 
-import com.laba.solvd.militaryProject.Main;
 import com.laba.solvd.militaryProject.enums.Gender;
 import com.laba.solvd.militaryProject.interfaces.CalculateSalary;
 import com.laba.solvd.militaryProject.interfaces.GetInfo;
 import org.apache.log4j.Logger;
-
 import java.util.Objects;
 
 
@@ -61,7 +59,6 @@ public abstract class MilitaryPersonnelAbstract implements CalculateSalary, GetI
 
     @Override
     public abstract String getInfo();
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

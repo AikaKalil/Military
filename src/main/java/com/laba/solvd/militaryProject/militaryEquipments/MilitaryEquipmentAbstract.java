@@ -59,4 +59,6 @@ public abstract class MilitaryEquipmentAbstract implements CalculatePrice, GetIn
 
         return cost * quantity;
     }
+
+
 }

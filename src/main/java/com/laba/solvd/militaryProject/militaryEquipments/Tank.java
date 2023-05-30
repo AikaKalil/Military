@@ -50,4 +50,5 @@ public class Tank extends MilitaryEquipmentAbstract {
     public String getInfo() {
         return super.getInfo();
     }
+
 }

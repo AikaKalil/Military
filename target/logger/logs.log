@@ -1368,3 +1368,520 @@ John Smith is a soldier with rank Sergeant and salary 52000.0
 2023-05-27 23:11:24 INFO  Main:223 - Pilot Michael Jordan's salary: $33000.0
 2023-05-27 23:11:24 INFO  Main:232 - Total Army equipment price: $2400000.0
 2023-05-27 23:11:24 INFO  Main:235 - Total Air Force equipment price: $8100000.0
+2023-05-29 20:15:14 INFO  Main:22 - Field Name: ARMY
+2023-05-29 20:15:14 INFO  Main:23 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:15:14 INFO  Main:24 - Modifiers: public static final
+2023-05-29 20:15:14 INFO  Main:22 - Field Name: NAVY
+2023-05-29 20:15:14 INFO  Main:23 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:15:14 INFO  Main:24 - Modifiers: public static final
+2023-05-29 20:15:14 INFO  Main:22 - Field Name: AIR_FORCE
+2023-05-29 20:15:14 INFO  Main:23 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:15:14 INFO  Main:24 - Modifiers: public static final
+2023-05-29 20:15:14 INFO  Main:22 - Field Name: MARINES
+2023-05-29 20:15:14 INFO  Main:23 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:15:14 INFO  Main:24 - Modifiers: public static final
+2023-05-29 20:15:14 INFO  Main:22 - Field Name: COAST_GUARD
+2023-05-29 20:15:14 INFO  Main:23 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:15:14 INFO  Main:24 - Modifiers: public static final
+2023-05-29 20:15:14 INFO  Main:22 - Field Name: displayName
+2023-05-29 20:15:14 INFO  Main:23 - Field Type: class java.lang.String
+2023-05-29 20:15:14 INFO  Main:24 - Modifiers: private final
+2023-05-29 20:15:14 INFO  Main:22 - Field Name: $VALUES
+2023-05-29 20:15:14 INFO  Main:23 - Field Type: class [Lcom.laba.solvd.militaryProject.enums.Branch;
+2023-05-29 20:15:14 INFO  Main:24 - Modifiers: private static final
+2023-05-29 20:15:14 INFO  Main:30 - Constructor Name: com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:15:14 INFO  Main:31 - Modifiers: private
+2023-05-29 20:15:14 INFO  Main:34 - Parameter Type: class java.lang.String
+2023-05-29 20:15:14 INFO  Main:34 - Parameter Type: int
+2023-05-29 20:15:14 INFO  Main:34 - Parameter Type: class java.lang.String
+2023-05-29 20:15:14 INFO  Main:41 - Method Name: selectBranch
+2023-05-29 20:15:14 INFO  Main:42 - Return Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:15:14 INFO  Main:43 - Modifiers: public static
+2023-05-29 20:15:14 INFO  Main:46 - Parameter Type: class java.util.Scanner
+2023-05-29 20:15:14 INFO  Main:41 - Method Name: getDisplayName
+2023-05-29 20:15:14 INFO  Main:42 - Return Type: class java.lang.String
+2023-05-29 20:15:14 INFO  Main:43 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:41 - Method Name: values
+2023-05-29 20:15:14 INFO  Main:42 - Return Type: class [Lcom.laba.solvd.militaryProject.enums.Branch;
+2023-05-29 20:15:14 INFO  Main:43 - Modifiers: public static
+2023-05-29 20:15:14 INFO  Main:41 - Method Name: valueOf
+2023-05-29 20:15:14 INFO  Main:42 - Return Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:15:14 INFO  Main:43 - Modifiers: public static
+2023-05-29 20:15:14 INFO  Main:46 - Parameter Type: class java.lang.String
+2023-05-29 20:15:14 INFO  Main:56 - Field Name: airForceBudget
+2023-05-29 20:15:14 INFO  Main:57 - Field Type: long
+2023-05-29 20:15:14 INFO  Main:58 - Modifiers: private
+2023-05-29 20:15:14 INFO  Main:56 - Field Name: trackExpenses
+2023-05-29 20:15:14 INFO  Main:57 - Field Type: interface com.laba.solvd.militaryProject.interfaces.TrackExpenses
+2023-05-29 20:15:14 INFO  Main:58 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:56 - Field Name: calculateEquipmentPrice
+2023-05-29 20:15:14 INFO  Main:57 - Field Type: interface com.laba.solvd.militaryProject.interfaces.CalculatePrice
+2023-05-29 20:15:14 INFO  Main:58 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:65 - Constructor Name: com.laba.solvd.militaryProject.militaryForces.AirForce
+2023-05-29 20:15:14 INFO  Main:66 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:69 - Parameter Type: class com.laba.solvd.militaryProject.customLinkedList.CustomLinkedList
+2023-05-29 20:15:14 INFO  Main:65 - Constructor Name: com.laba.solvd.militaryProject.militaryForces.AirForce
+2023-05-29 20:15:14 INFO  Main:66 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:69 - Parameter Type: class java.util.ArrayList
+2023-05-29 20:15:14 INFO  Main:76 - Method Name: getPersonnelList
+2023-05-29 20:15:14 INFO  Main:77 - Return Type: class com.laba.solvd.militaryProject.customLinkedList.CustomLinkedList
+2023-05-29 20:15:14 INFO  Main:78 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:76 - Method Name: getAirForceBudget
+2023-05-29 20:15:14 INFO  Main:77 - Return Type: long
+2023-05-29 20:15:14 INFO  Main:78 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:76 - Method Name: lambda$new$1
+2023-05-29 20:15:14 INFO  Main:77 - Return Type: double
+2023-05-29 20:15:14 INFO  Main:78 - Modifiers: private
+2023-05-29 20:15:14 INFO  Main:76 - Method Name: lambda$new$0
+2023-05-29 20:15:14 INFO  Main:77 - Return Type: long
+2023-05-29 20:15:14 INFO  Main:78 - Modifiers: private
+2023-05-29 20:15:14 INFO  Main:90 - Field Name: log
+2023-05-29 20:15:14 INFO  Main:91 - Field Type: class org.apache.log4j.Logger
+2023-05-29 20:15:14 INFO  Main:92 - Modifiers: public static
+2023-05-29 20:15:14 INFO  Main:90 - Field Name: name
+2023-05-29 20:15:14 INFO  Main:91 - Field Type: class java.lang.String
+2023-05-29 20:15:14 INFO  Main:92 - Modifiers: private
+2023-05-29 20:15:14 INFO  Main:90 - Field Name: salary
+2023-05-29 20:15:14 INFO  Main:91 - Field Type: double
+2023-05-29 20:15:14 INFO  Main:92 - Modifiers: private
+2023-05-29 20:15:14 INFO  Main:90 - Field Name: rank
+2023-05-29 20:15:14 INFO  Main:91 - Field Type: class java.lang.String
+2023-05-29 20:15:14 INFO  Main:92 - Modifiers: private
+2023-05-29 20:15:14 INFO  Main:90 - Field Name: gender
+2023-05-29 20:15:14 INFO  Main:91 - Field Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:15:14 INFO  Main:92 - Modifiers: private
+2023-05-29 20:15:14 INFO  Main:99 - Constructor Name: com.laba.solvd.militaryProject.militaryPersonnel.MilitaryPersonnelAbstract
+2023-05-29 20:15:14 INFO  Main:100 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:103 - Parameter Type: class java.lang.String
+2023-05-29 20:15:14 INFO  Main:103 - Parameter Type: double
+2023-05-29 20:15:14 INFO  Main:103 - Parameter Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:15:14 INFO  Main:110 - Method Name: setSalary
+2023-05-29 20:15:14 INFO  Main:111 - Return Type: void
+2023-05-29 20:15:14 INFO  Main:112 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:115 - Parameter Type: double
+2023-05-29 20:15:14 INFO  Main:110 - Method Name: getRank
+2023-05-29 20:15:14 INFO  Main:111 - Return Type: class java.lang.String
+2023-05-29 20:15:14 INFO  Main:112 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:110 - Method Name: setRank
+2023-05-29 20:15:14 INFO  Main:111 - Return Type: void
+2023-05-29 20:15:14 INFO  Main:112 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:115 - Parameter Type: class java.lang.String
+2023-05-29 20:15:14 INFO  Main:110 - Method Name: getGender
+2023-05-29 20:15:14 INFO  Main:111 - Return Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:15:14 INFO  Main:112 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:110 - Method Name: setGender
+2023-05-29 20:15:14 INFO  Main:111 - Return Type: void
+2023-05-29 20:15:14 INFO  Main:112 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:115 - Parameter Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:15:14 INFO  Main:110 - Method Name: getSalary
+2023-05-29 20:15:14 INFO  Main:111 - Return Type: double
+2023-05-29 20:15:14 INFO  Main:112 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:110 - Method Name: getInfo
+2023-05-29 20:15:14 INFO  Main:111 - Return Type: class java.lang.String
+2023-05-29 20:15:14 INFO  Main:112 - Modifiers: public abstract
+2023-05-29 20:15:14 INFO  Main:110 - Method Name: calculateSalary
+2023-05-29 20:15:14 INFO  Main:111 - Return Type: double
+2023-05-29 20:15:14 INFO  Main:112 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:110 - Method Name: getName
+2023-05-29 20:15:14 INFO  Main:111 - Return Type: class java.lang.String
+2023-05-29 20:15:14 INFO  Main:112 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:110 - Method Name: equals
+2023-05-29 20:15:14 INFO  Main:111 - Return Type: boolean
+2023-05-29 20:15:14 INFO  Main:112 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:115 - Parameter Type: class java.lang.Object
+2023-05-29 20:15:14 INFO  Main:110 - Method Name: hashCode
+2023-05-29 20:15:14 INFO  Main:111 - Return Type: int
+2023-05-29 20:15:14 INFO  Main:112 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:110 - Method Name: setName
+2023-05-29 20:15:14 INFO  Main:111 - Return Type: void
+2023-05-29 20:15:14 INFO  Main:112 - Modifiers: public
+2023-05-29 20:15:14 INFO  Main:115 - Parameter Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:27 - Field Name: ARMY
+2023-05-29 20:17:29 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:17:29 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:17:29 INFO  Main:27 - Field Name: NAVY
+2023-05-29 20:17:29 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:17:29 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:17:29 INFO  Main:27 - Field Name: AIR_FORCE
+2023-05-29 20:17:29 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:17:29 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:17:29 INFO  Main:27 - Field Name: MARINES
+2023-05-29 20:17:29 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:17:29 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:17:29 INFO  Main:27 - Field Name: COAST_GUARD
+2023-05-29 20:17:29 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:17:29 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:17:29 INFO  Main:27 - Field Name: displayName
+2023-05-29 20:17:29 INFO  Main:28 - Field Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:29 - Modifiers: private final
+2023-05-29 20:17:29 INFO  Main:27 - Field Name: $VALUES
+2023-05-29 20:17:29 INFO  Main:28 - Field Type: class [Lcom.laba.solvd.militaryProject.enums.Branch;
+2023-05-29 20:17:29 INFO  Main:29 - Modifiers: private static final
+2023-05-29 20:17:29 INFO  Main:35 - Constructor Name: com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:17:29 INFO  Main:36 - Modifiers: private
+2023-05-29 20:17:29 INFO  Main:39 - Parameter Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:39 - Parameter Type: int
+2023-05-29 20:17:29 INFO  Main:39 - Parameter Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:46 - Method Name: selectBranch
+2023-05-29 20:17:29 INFO  Main:47 - Return Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:17:29 INFO  Main:48 - Modifiers: public static
+2023-05-29 20:17:29 INFO  Main:51 - Parameter Type: class java.util.Scanner
+2023-05-29 20:17:29 INFO  Main:46 - Method Name: getDisplayName
+2023-05-29 20:17:29 INFO  Main:47 - Return Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:48 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:46 - Method Name: values
+2023-05-29 20:17:29 INFO  Main:47 - Return Type: class [Lcom.laba.solvd.militaryProject.enums.Branch;
+2023-05-29 20:17:29 INFO  Main:48 - Modifiers: public static
+2023-05-29 20:17:29 INFO  Main:46 - Method Name: valueOf
+2023-05-29 20:17:29 INFO  Main:47 - Return Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:17:29 INFO  Main:48 - Modifiers: public static
+2023-05-29 20:17:29 INFO  Main:51 - Parameter Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:61 - Field Name: airForceBudget
+2023-05-29 20:17:29 INFO  Main:62 - Field Type: long
+2023-05-29 20:17:29 INFO  Main:63 - Modifiers: private
+2023-05-29 20:17:29 INFO  Main:61 - Field Name: trackExpenses
+2023-05-29 20:17:29 INFO  Main:62 - Field Type: interface com.laba.solvd.militaryProject.interfaces.TrackExpenses
+2023-05-29 20:17:29 INFO  Main:63 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:61 - Field Name: calculateEquipmentPrice
+2023-05-29 20:17:29 INFO  Main:62 - Field Type: interface com.laba.solvd.militaryProject.interfaces.CalculatePrice
+2023-05-29 20:17:29 INFO  Main:63 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:70 - Constructor Name: com.laba.solvd.militaryProject.militaryForces.AirForce
+2023-05-29 20:17:29 INFO  Main:71 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:74 - Parameter Type: class com.laba.solvd.militaryProject.customLinkedList.CustomLinkedList
+2023-05-29 20:17:29 INFO  Main:70 - Constructor Name: com.laba.solvd.militaryProject.militaryForces.AirForce
+2023-05-29 20:17:29 INFO  Main:71 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:74 - Parameter Type: class java.util.ArrayList
+2023-05-29 20:17:29 INFO  Main:81 - Method Name: getAirForceBudget
+2023-05-29 20:17:29 INFO  Main:82 - Return Type: long
+2023-05-29 20:17:29 INFO  Main:83 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:81 - Method Name: lambda$new$1
+2023-05-29 20:17:29 INFO  Main:82 - Return Type: double
+2023-05-29 20:17:29 INFO  Main:83 - Modifiers: private
+2023-05-29 20:17:29 INFO  Main:81 - Method Name: getPersonnelList
+2023-05-29 20:17:29 INFO  Main:82 - Return Type: class com.laba.solvd.militaryProject.customLinkedList.CustomLinkedList
+2023-05-29 20:17:29 INFO  Main:83 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:81 - Method Name: lambda$new$0
+2023-05-29 20:17:29 INFO  Main:82 - Return Type: long
+2023-05-29 20:17:29 INFO  Main:83 - Modifiers: private
+2023-05-29 20:17:29 INFO  Main:95 - Field Name: log
+2023-05-29 20:17:29 INFO  Main:96 - Field Type: class org.apache.log4j.Logger
+2023-05-29 20:17:29 INFO  Main:97 - Modifiers: public static
+2023-05-29 20:17:29 INFO  Main:95 - Field Name: name
+2023-05-29 20:17:29 INFO  Main:96 - Field Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:97 - Modifiers: private
+2023-05-29 20:17:29 INFO  Main:95 - Field Name: salary
+2023-05-29 20:17:29 INFO  Main:96 - Field Type: double
+2023-05-29 20:17:29 INFO  Main:97 - Modifiers: private
+2023-05-29 20:17:29 INFO  Main:95 - Field Name: rank
+2023-05-29 20:17:29 INFO  Main:96 - Field Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:97 - Modifiers: private
+2023-05-29 20:17:29 INFO  Main:95 - Field Name: gender
+2023-05-29 20:17:29 INFO  Main:96 - Field Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:17:29 INFO  Main:97 - Modifiers: private
+2023-05-29 20:17:29 INFO  Main:104 - Constructor Name: com.laba.solvd.militaryProject.militaryPersonnel.MilitaryPersonnelAbstract
+2023-05-29 20:17:29 INFO  Main:105 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:108 - Parameter Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:108 - Parameter Type: double
+2023-05-29 20:17:29 INFO  Main:108 - Parameter Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:17:29 INFO  Main:115 - Method Name: getInfo
+2023-05-29 20:17:29 INFO  Main:116 - Return Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:117 - Modifiers: public abstract
+2023-05-29 20:17:29 INFO  Main:115 - Method Name: getSalary
+2023-05-29 20:17:29 INFO  Main:116 - Return Type: double
+2023-05-29 20:17:29 INFO  Main:117 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:115 - Method Name: setSalary
+2023-05-29 20:17:29 INFO  Main:116 - Return Type: void
+2023-05-29 20:17:29 INFO  Main:117 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:120 - Parameter Type: double
+2023-05-29 20:17:29 INFO  Main:115 - Method Name: getRank
+2023-05-29 20:17:29 INFO  Main:116 - Return Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:117 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:115 - Method Name: setRank
+2023-05-29 20:17:29 INFO  Main:116 - Return Type: void
+2023-05-29 20:17:29 INFO  Main:117 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:120 - Parameter Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:115 - Method Name: getGender
+2023-05-29 20:17:29 INFO  Main:116 - Return Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:17:29 INFO  Main:117 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:115 - Method Name: setGender
+2023-05-29 20:17:29 INFO  Main:116 - Return Type: void
+2023-05-29 20:17:29 INFO  Main:117 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:120 - Parameter Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:17:29 INFO  Main:115 - Method Name: calculateSalary
+2023-05-29 20:17:29 INFO  Main:116 - Return Type: double
+2023-05-29 20:17:29 INFO  Main:117 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:115 - Method Name: getName
+2023-05-29 20:17:29 INFO  Main:116 - Return Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:117 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:115 - Method Name: equals
+2023-05-29 20:17:29 INFO  Main:116 - Return Type: boolean
+2023-05-29 20:17:29 INFO  Main:117 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:120 - Parameter Type: class java.lang.Object
+2023-05-29 20:17:29 INFO  Main:115 - Method Name: hashCode
+2023-05-29 20:17:29 INFO  Main:116 - Return Type: int
+2023-05-29 20:17:29 INFO  Main:117 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:115 - Method Name: setName
+2023-05-29 20:17:29 INFO  Main:116 - Return Type: void
+2023-05-29 20:17:29 INFO  Main:117 - Modifiers: public
+2023-05-29 20:17:29 INFO  Main:120 - Parameter Type: class java.lang.String
+2023-05-29 20:17:29 INFO  Main:136 - Changed infoName: Army Helicopter, Cost: 200000.0, Quantity: 5, Branch: AIR_FORCE
+2023-05-29 20:19:41 INFO  Main:27 - Field Name: ARMY
+2023-05-29 20:19:41 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:19:41 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:19:41 INFO  Main:27 - Field Name: NAVY
+2023-05-29 20:19:41 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:19:41 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:19:41 INFO  Main:27 - Field Name: AIR_FORCE
+2023-05-29 20:19:41 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:19:41 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:19:41 INFO  Main:27 - Field Name: MARINES
+2023-05-29 20:19:41 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:19:41 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:19:41 INFO  Main:27 - Field Name: COAST_GUARD
+2023-05-29 20:19:41 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:19:41 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:19:41 INFO  Main:27 - Field Name: displayName
+2023-05-29 20:19:41 INFO  Main:28 - Field Type: class java.lang.String
+2023-05-29 20:19:41 INFO  Main:29 - Modifiers: private final
+2023-05-29 20:19:41 INFO  Main:27 - Field Name: $VALUES
+2023-05-29 20:19:41 INFO  Main:28 - Field Type: class [Lcom.laba.solvd.militaryProject.enums.Branch;
+2023-05-29 20:19:41 INFO  Main:29 - Modifiers: private static final
+2023-05-29 20:19:41 INFO  Main:35 - Constructor Name: com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:19:41 INFO  Main:36 - Modifiers: private
+2023-05-29 20:19:41 INFO  Main:39 - Parameter Type: class java.lang.String
+2023-05-29 20:19:41 INFO  Main:39 - Parameter Type: int
+2023-05-29 20:19:41 INFO  Main:39 - Parameter Type: class java.lang.String
+2023-05-29 20:19:41 INFO  Main:46 - Method Name: selectBranch
+2023-05-29 20:19:41 INFO  Main:47 - Return Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:19:41 INFO  Main:48 - Modifiers: public static
+2023-05-29 20:19:41 INFO  Main:51 - Parameter Type: class java.util.Scanner
+2023-05-29 20:19:41 INFO  Main:46 - Method Name: getDisplayName
+2023-05-29 20:19:41 INFO  Main:47 - Return Type: class java.lang.String
+2023-05-29 20:19:41 INFO  Main:48 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:46 - Method Name: values
+2023-05-29 20:19:41 INFO  Main:47 - Return Type: class [Lcom.laba.solvd.militaryProject.enums.Branch;
+2023-05-29 20:19:41 INFO  Main:48 - Modifiers: public static
+2023-05-29 20:19:41 INFO  Main:46 - Method Name: valueOf
+2023-05-29 20:19:41 INFO  Main:47 - Return Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:19:41 INFO  Main:48 - Modifiers: public static
+2023-05-29 20:19:41 INFO  Main:51 - Parameter Type: class java.lang.String
+2023-05-29 20:19:41 INFO  Main:61 - Field Name: airForceBudget
+2023-05-29 20:19:41 INFO  Main:62 - Field Type: long
+2023-05-29 20:19:41 INFO  Main:63 - Modifiers: private
+2023-05-29 20:19:41 INFO  Main:61 - Field Name: trackExpenses
+2023-05-29 20:19:41 INFO  Main:62 - Field Type: interface com.laba.solvd.militaryProject.interfaces.TrackExpenses
+2023-05-29 20:19:41 INFO  Main:63 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:61 - Field Name: calculateEquipmentPrice
+2023-05-29 20:19:41 INFO  Main:62 - Field Type: interface com.laba.solvd.militaryProject.interfaces.CalculatePrice
+2023-05-29 20:19:41 INFO  Main:63 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:70 - Constructor Name: com.laba.solvd.militaryProject.militaryForces.AirForce
+2023-05-29 20:19:41 INFO  Main:71 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:74 - Parameter Type: class java.util.ArrayList
+2023-05-29 20:19:41 INFO  Main:70 - Constructor Name: com.laba.solvd.militaryProject.militaryForces.AirForce
+2023-05-29 20:19:41 INFO  Main:71 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:74 - Parameter Type: class com.laba.solvd.militaryProject.customLinkedList.CustomLinkedList
+2023-05-29 20:19:41 INFO  Main:81 - Method Name: lambda$new$1
+2023-05-29 20:19:41 INFO  Main:82 - Return Type: double
+2023-05-29 20:19:41 INFO  Main:83 - Modifiers: private
+2023-05-29 20:19:41 INFO  Main:81 - Method Name: getAirForceBudget
+2023-05-29 20:19:41 INFO  Main:82 - Return Type: long
+2023-05-29 20:19:41 INFO  Main:83 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:81 - Method Name: getPersonnelList
+2023-05-29 20:19:41 INFO  Main:82 - Return Type: class com.laba.solvd.militaryProject.customLinkedList.CustomLinkedList
+2023-05-29 20:19:41 INFO  Main:83 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:81 - Method Name: lambda$new$0
+2023-05-29 20:19:41 INFO  Main:82 - Return Type: long
+2023-05-29 20:19:41 INFO  Main:83 - Modifiers: private
+2023-05-29 20:19:41 INFO  Main:95 - Field Name: log
+2023-05-29 20:19:41 INFO  Main:96 - Field Type: class org.apache.log4j.Logger
+2023-05-29 20:19:41 INFO  Main:97 - Modifiers: public static
+2023-05-29 20:19:41 INFO  Main:95 - Field Name: name
+2023-05-29 20:19:41 INFO  Main:96 - Field Type: class java.lang.String
+2023-05-29 20:19:41 INFO  Main:97 - Modifiers: private
+2023-05-29 20:19:41 INFO  Main:95 - Field Name: salary
+2023-05-29 20:19:41 INFO  Main:96 - Field Type: double
+2023-05-29 20:19:41 INFO  Main:97 - Modifiers: private
+2023-05-29 20:19:41 INFO  Main:95 - Field Name: rank
+2023-05-29 20:19:41 INFO  Main:96 - Field Type: class java.lang.String
+2023-05-29 20:19:41 INFO  Main:97 - Modifiers: private
+2023-05-29 20:19:41 INFO  Main:95 - Field Name: gender
+2023-05-29 20:19:41 INFO  Main:96 - Field Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:19:41 INFO  Main:97 - Modifiers: private
+2023-05-29 20:19:41 INFO  Main:104 - Constructor Name: com.laba.solvd.militaryProject.militaryPersonnel.MilitaryPersonnelAbstract
+2023-05-29 20:19:41 INFO  Main:105 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:108 - Parameter Type: class java.lang.String
+2023-05-29 20:19:41 INFO  Main:108 - Parameter Type: double
+2023-05-29 20:19:41 INFO  Main:108 - Parameter Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:19:41 INFO  Main:115 - Method Name: setSalary
+2023-05-29 20:19:41 INFO  Main:116 - Return Type: void
+2023-05-29 20:19:41 INFO  Main:117 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:120 - Parameter Type: double
+2023-05-29 20:19:41 INFO  Main:115 - Method Name: getRank
+2023-05-29 20:19:41 INFO  Main:116 - Return Type: class java.lang.String
+2023-05-29 20:19:41 INFO  Main:117 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:115 - Method Name: setRank
+2023-05-29 20:19:41 INFO  Main:116 - Return Type: void
+2023-05-29 20:19:41 INFO  Main:117 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:120 - Parameter Type: class java.lang.String
+2023-05-29 20:19:41 INFO  Main:115 - Method Name: getGender
+2023-05-29 20:19:41 INFO  Main:116 - Return Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:19:41 INFO  Main:117 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:115 - Method Name: setGender
+2023-05-29 20:19:41 INFO  Main:116 - Return Type: void
+2023-05-29 20:19:41 INFO  Main:117 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:120 - Parameter Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:19:41 INFO  Main:115 - Method Name: getSalary
+2023-05-29 20:19:41 INFO  Main:116 - Return Type: double
+2023-05-29 20:19:41 INFO  Main:117 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:115 - Method Name: getInfo
+2023-05-29 20:19:41 INFO  Main:116 - Return Type: class java.lang.String
+2023-05-29 20:19:41 INFO  Main:117 - Modifiers: public abstract
+2023-05-29 20:19:41 INFO  Main:115 - Method Name: calculateSalary
+2023-05-29 20:19:41 INFO  Main:116 - Return Type: double
+2023-05-29 20:19:41 INFO  Main:117 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:115 - Method Name: getName
+2023-05-29 20:19:41 INFO  Main:116 - Return Type: class java.lang.String
+2023-05-29 20:19:41 INFO  Main:117 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:115 - Method Name: equals
+2023-05-29 20:19:41 INFO  Main:116 - Return Type: boolean
+2023-05-29 20:19:41 INFO  Main:117 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:120 - Parameter Type: class java.lang.Object
+2023-05-29 20:19:41 INFO  Main:115 - Method Name: hashCode
+2023-05-29 20:19:41 INFO  Main:116 - Return Type: int
+2023-05-29 20:19:41 INFO  Main:117 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:115 - Method Name: setName
+2023-05-29 20:19:41 INFO  Main:116 - Return Type: void
+2023-05-29 20:19:41 INFO  Main:117 - Modifiers: public
+2023-05-29 20:19:41 INFO  Main:120 - Parameter Type: class java.lang.String
+2023-05-29 20:19:41 INFO  Main:134 - Changed info-Name: Army Helicopter, Cost: 200000.0, Quantity: 5, Branch: AIR_FORCE
+2023-05-29 20:20:46 INFO  Main:27 - Field Name: ARMY
+2023-05-29 20:20:46 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:20:46 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:20:46 INFO  Main:27 - Field Name: NAVY
+2023-05-29 20:20:46 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:20:46 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:20:46 INFO  Main:27 - Field Name: AIR_FORCE
+2023-05-29 20:20:46 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:20:46 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:20:46 INFO  Main:27 - Field Name: MARINES
+2023-05-29 20:20:46 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:20:46 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:20:46 INFO  Main:27 - Field Name: COAST_GUARD
+2023-05-29 20:20:46 INFO  Main:28 - Field Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:20:46 INFO  Main:29 - Modifiers: public static final
+2023-05-29 20:20:46 INFO  Main:27 - Field Name: displayName
+2023-05-29 20:20:46 INFO  Main:28 - Field Type: class java.lang.String
+2023-05-29 20:20:46 INFO  Main:29 - Modifiers: private final
+2023-05-29 20:20:46 INFO  Main:27 - Field Name: $VALUES
+2023-05-29 20:20:46 INFO  Main:28 - Field Type: class [Lcom.laba.solvd.militaryProject.enums.Branch;
+2023-05-29 20:20:46 INFO  Main:29 - Modifiers: private static final
+2023-05-29 20:20:46 INFO  Main:35 - Constructor Name: com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:20:46 INFO  Main:36 - Modifiers: private
+2023-05-29 20:20:46 INFO  Main:39 - Parameter Type: class java.lang.String
+2023-05-29 20:20:46 INFO  Main:39 - Parameter Type: int
+2023-05-29 20:20:46 INFO  Main:39 - Parameter Type: class java.lang.String
+2023-05-29 20:20:46 INFO  Main:46 - Method Name: selectBranch
+2023-05-29 20:20:46 INFO  Main:47 - Return Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:20:46 INFO  Main:48 - Modifiers: public static
+2023-05-29 20:20:46 INFO  Main:51 - Parameter Type: class java.util.Scanner
+2023-05-29 20:20:46 INFO  Main:46 - Method Name: getDisplayName
+2023-05-29 20:20:46 INFO  Main:47 - Return Type: class java.lang.String
+2023-05-29 20:20:46 INFO  Main:48 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:46 - Method Name: values
+2023-05-29 20:20:46 INFO  Main:47 - Return Type: class [Lcom.laba.solvd.militaryProject.enums.Branch;
+2023-05-29 20:20:46 INFO  Main:48 - Modifiers: public static
+2023-05-29 20:20:46 INFO  Main:46 - Method Name: valueOf
+2023-05-29 20:20:46 INFO  Main:47 - Return Type: class com.laba.solvd.militaryProject.enums.Branch
+2023-05-29 20:20:46 INFO  Main:48 - Modifiers: public static
+2023-05-29 20:20:46 INFO  Main:51 - Parameter Type: class java.lang.String
+2023-05-29 20:20:46 INFO  Main:61 - Field Name: airForceBudget
+2023-05-29 20:20:46 INFO  Main:62 - Field Type: long
+2023-05-29 20:20:46 INFO  Main:63 - Modifiers: private
+2023-05-29 20:20:46 INFO  Main:61 - Field Name: trackExpenses
+2023-05-29 20:20:46 INFO  Main:62 - Field Type: interface com.laba.solvd.militaryProject.interfaces.TrackExpenses
+2023-05-29 20:20:46 INFO  Main:63 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:61 - Field Name: calculateEquipmentPrice
+2023-05-29 20:20:46 INFO  Main:62 - Field Type: interface com.laba.solvd.militaryProject.interfaces.CalculatePrice
+2023-05-29 20:20:46 INFO  Main:63 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:70 - Constructor Name: com.laba.solvd.militaryProject.militaryForces.AirForce
+2023-05-29 20:20:46 INFO  Main:71 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:74 - Parameter Type: class com.laba.solvd.militaryProject.customLinkedList.CustomLinkedList
+2023-05-29 20:20:46 INFO  Main:70 - Constructor Name: com.laba.solvd.militaryProject.militaryForces.AirForce
+2023-05-29 20:20:46 INFO  Main:71 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:74 - Parameter Type: class java.util.ArrayList
+2023-05-29 20:20:46 INFO  Main:81 - Method Name: getPersonnelList
+2023-05-29 20:20:46 INFO  Main:82 - Return Type: class com.laba.solvd.militaryProject.customLinkedList.CustomLinkedList
+2023-05-29 20:20:46 INFO  Main:83 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:81 - Method Name: getAirForceBudget
+2023-05-29 20:20:46 INFO  Main:82 - Return Type: long
+2023-05-29 20:20:46 INFO  Main:83 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:81 - Method Name: lambda$new$1
+2023-05-29 20:20:46 INFO  Main:82 - Return Type: double
+2023-05-29 20:20:46 INFO  Main:83 - Modifiers: private
+2023-05-29 20:20:46 INFO  Main:81 - Method Name: lambda$new$0
+2023-05-29 20:20:46 INFO  Main:82 - Return Type: long
+2023-05-29 20:20:46 INFO  Main:83 - Modifiers: private
+2023-05-29 20:20:46 INFO  Main:95 - Field Name: log
+2023-05-29 20:20:46 INFO  Main:96 - Field Type: class org.apache.log4j.Logger
+2023-05-29 20:20:46 INFO  Main:97 - Modifiers: public static
+2023-05-29 20:20:46 INFO  Main:95 - Field Name: name
+2023-05-29 20:20:46 INFO  Main:96 - Field Type: class java.lang.String
+2023-05-29 20:20:46 INFO  Main:97 - Modifiers: private
+2023-05-29 20:20:46 INFO  Main:95 - Field Name: salary
+2023-05-29 20:20:46 INFO  Main:96 - Field Type: double
+2023-05-29 20:20:46 INFO  Main:97 - Modifiers: private
+2023-05-29 20:20:46 INFO  Main:95 - Field Name: rank
+2023-05-29 20:20:46 INFO  Main:96 - Field Type: class java.lang.String
+2023-05-29 20:20:46 INFO  Main:97 - Modifiers: private
+2023-05-29 20:20:46 INFO  Main:95 - Field Name: gender
+2023-05-29 20:20:46 INFO  Main:96 - Field Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:20:46 INFO  Main:97 - Modifiers: private
+2023-05-29 20:20:46 INFO  Main:104 - Constructor Name: com.laba.solvd.militaryProject.militaryPersonnel.MilitaryPersonnelAbstract
+2023-05-29 20:20:46 INFO  Main:105 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:108 - Parameter Type: class java.lang.String
+2023-05-29 20:20:46 INFO  Main:108 - Parameter Type: double
+2023-05-29 20:20:46 INFO  Main:108 - Parameter Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:20:46 INFO  Main:115 - Method Name: getInfo
+2023-05-29 20:20:46 INFO  Main:116 - Return Type: class java.lang.String
+2023-05-29 20:20:46 INFO  Main:117 - Modifiers: public abstract
+2023-05-29 20:20:46 INFO  Main:115 - Method Name: getSalary
+2023-05-29 20:20:46 INFO  Main:116 - Return Type: double
+2023-05-29 20:20:46 INFO  Main:117 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:115 - Method Name: setSalary
+2023-05-29 20:20:46 INFO  Main:116 - Return Type: void
+2023-05-29 20:20:46 INFO  Main:117 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:120 - Parameter Type: double
+2023-05-29 20:20:46 INFO  Main:115 - Method Name: getRank
+2023-05-29 20:20:46 INFO  Main:116 - Return Type: class java.lang.String
+2023-05-29 20:20:46 INFO  Main:117 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:115 - Method Name: setRank
+2023-05-29 20:20:46 INFO  Main:116 - Return Type: void
+2023-05-29 20:20:46 INFO  Main:117 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:120 - Parameter Type: class java.lang.String
+2023-05-29 20:20:46 INFO  Main:115 - Method Name: getGender
+2023-05-29 20:20:46 INFO  Main:116 - Return Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:20:46 INFO  Main:117 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:115 - Method Name: setGender
+2023-05-29 20:20:46 INFO  Main:116 - Return Type: void
+2023-05-29 20:20:46 INFO  Main:117 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:120 - Parameter Type: class com.laba.solvd.militaryProject.enums.Gender
+2023-05-29 20:20:46 INFO  Main:115 - Method Name: calculateSalary
+2023-05-29 20:20:46 INFO  Main:116 - Return Type: double
+2023-05-29 20:20:46 INFO  Main:117 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:115 - Method Name: getName
+2023-05-29 20:20:46 INFO  Main:116 - Return Type: class java.lang.String
+2023-05-29 20:20:46 INFO  Main:117 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:115 - Method Name: equals
+2023-05-29 20:20:46 INFO  Main:116 - Return Type: boolean
+2023-05-29 20:20:46 INFO  Main:117 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:120 - Parameter Type: class java.lang.Object
+2023-05-29 20:20:46 INFO  Main:115 - Method Name: hashCode
+2023-05-29 20:20:46 INFO  Main:116 - Return Type: int
+2023-05-29 20:20:46 INFO  Main:117 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:115 - Method Name: setName
+2023-05-29 20:20:46 INFO  Main:116 - Return Type: void
+2023-05-29 20:20:46 INFO  Main:117 - Modifiers: public
+2023-05-29 20:20:46 INFO  Main:120 - Parameter Type: class java.lang.String
+2023-05-29 20:20:46 INFO  Main:134 - Changed info->Name: Army Helicopter, Cost: 200000.0, Quantity: 5, Branch: AIR_FORCE
+2023-05-29 20:47:28 INFO  Files:19 - Enter your location here:
+2023-05-29 22:23:44 INFO  Main:11 - Thread 13 is running.

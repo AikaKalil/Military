@@ -1,12 +1,8 @@
 package com.laba.solvd.militaryProject.militaryPersonnel;
-
-
 import com.laba.solvd.militaryProject.enums.Gender;
-import com.laba.solvd.militaryProject.enums.OfficerRank;
 import com.laba.solvd.militaryProject.enums.SoldierRank;
 import com.laba.solvd.militaryProject.exceptions.InvalidPersonnelException;
 import com.laba.solvd.militaryProject.exceptions.InvalidRankException;
-
 import java.util.Arrays;
 import java.util.Scanner;
 

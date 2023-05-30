@@ -60,6 +60,4 @@ public TrackExpenses trackExpenses = () -> {
                 .mapToDouble(MilitaryEquipmentAbstract::calculatePrice).sum();
         return totalCost;
     };
-
-
 }

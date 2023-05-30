@@ -4,7 +4,6 @@ import com.laba.solvd.militaryProject.enums.OfficerRank;
 import com.laba.solvd.militaryProject.exceptions.InvalidPersonnelException;
 import com.laba.solvd.militaryProject.exceptions.InvalidRankException;
 import org.apache.log4j.Logger;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -57,7 +56,6 @@ public class Officer extends MilitaryPersonnelAbstract {
 //        }
 //        return false;
 //    }
-
 
     @Override
     public double calculateSalary() {
