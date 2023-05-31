@@ -14,8 +14,7 @@ import java.util.Set;
 public class Files {
     public static Logger log = Logger.getLogger(Files.class);
     public static void main(String[] args) {
-        try {
-            Scanner input = new Scanner(System.in);
+        try(Scanner input = new Scanner(System.in)){
         log.info("Enter your location here:");
         String locationOfFile = input.nextLine();
             File file = new File(locationOfFile);
