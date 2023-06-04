@@ -57,7 +57,7 @@ public class Main {
 
 
         try {
-            MilitaryEquipmentAbstract airForceEquipment1 = new Drones("Air Force Drone", 15000.00, 20, Branch.AIR_FORCE);
+            MilitaryEquipmentAbstract airForceEquipment1 = new Drones("AIR FORCE", 15000.00, 10, Branch.AIR_FORCE);
             airForceEquipmentList.add(airForceEquipment1);
             airForceEquipment.addEquipment(airForceEquipment1);
             airForceEquipment.removeEquipment(airForceEquipment1);
@@ -103,6 +103,7 @@ public class Main {
                 .collect(Collectors.toList());
         equipmentsByPrice.forEach(equipment -> log.info("List of equipments sorted by price" + equipment.getInfo()));
 
+
         try {
             MilitaryPersonnelAbstract armyPersonnel1 = new Soldier("Lucas Leon", 30000.00, MASTER_SERGEANT, MALE);
             armyPersonnelList.add(armyPersonnel1);
@@ -116,11 +117,11 @@ public class Main {
         }
 
         try {
-            MilitaryPersonnelAbstract armyPersonnel2 = new Officer("Peter Tonn", 100000.00, BRIGADIER_GENERAL, MALE);
+            MilitaryPersonnelAbstract armyPersonnel2 = new Officer("Peter Tonn", 80000.00, BRIGADIER_GENERAL, MALE);
             armyPersonnelList.add(armyPersonnel2);
-            armyPersonnelList.add(armyPersonnel2);
-            armyPersonnel.getPersonnelList();// Duplicate entry
             log.info("Added a new soldier to the Army personnel list.");
+            armyPersonnelList.add(armyPersonnel2);
+            armyPersonnel.getPersonnelList();
         } catch (DuplicatePersonnelException e) {
             log.error("Failed to add a new Soldier to the Army personnel list: " + e.getMessage());
         } catch (InvalidPersonnelException e) {
@@ -130,9 +131,11 @@ public class Main {
         }
 
         try {
-            MilitaryPersonnelAbstract airForcePersonnel1 = new Soldier("John Smith", 50000.00, SERGEANT, MALE);
+            MilitaryPersonnelAbstract airForcePersonnel1 = new Soldier("John Smith", 700000.00, COMMAND_SERGEANT_MAJOR, MALE);
+            log.info("Air Force personnel is empty: "+airForcePersonnelList.isEmpty()+".The size of Air Force personnel is: "+airForcePersonnelList.size());
             airForcePersonnelList.add(airForcePersonnel1);
             airForcePersonnel.getPersonnelList();
+            log.info("Air Force personnel is empty: "+airForcePersonnelList.isEmpty()+".The size of Air Force personnel is: "+airForcePersonnelList.size());
             log.info("Added a new soldier to the Air Force personnel list: \n" + airForcePersonnel1.getInfo());
         } catch (DuplicatePersonnelException e) {
             log.error("Failed to add a new soldier to the Air Force  personnel list: " + e.getMessage());
@@ -143,7 +146,7 @@ public class Main {
         }
 
         try {
-            MilitaryPersonnelAbstract airForcePersonnel2 = new Officer("Silja Reuter", 80000.00, MAJOR_GENERAL, FEMALE);
+            MilitaryPersonnelAbstract airForcePersonnel2 = new Officer("Silja Reuter", 90000.00, GENERAL, FEMALE);
             airForcePersonnelList.add(airForcePersonnel2);
             airForcePersonnelList.add(airForcePersonnel2);
             airForcePersonnel.getPersonnelList();
@@ -206,6 +209,7 @@ public class Main {
         } catch (InvalidRankException e) {
             log.error("Failed to add a new Soldier to the list " + e.getMessage());
         }
+
 
         //part of lambda exp+stream is located inside Army class
         double armyEquipmentTotalPrice = armyEquipment.calculateEquipmentPrice.calculatePrice();

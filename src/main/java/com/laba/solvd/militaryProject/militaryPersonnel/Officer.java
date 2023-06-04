@@ -17,7 +17,7 @@ public class Officer extends MilitaryPersonnelAbstract {
     public Officer(String name, double salary, OfficerRank officerRank, Gender gender) throws InvalidPersonnelException, InvalidRankException {
         super(name, salary,gender);
         this.officerRank=officerRank;
-        if (name==null || salary<=0 || !isValidRank(officerRank)) {
+        if (name=="" || name==" " || salary<=0 || !isValidRank(officerRank)) {
             Officer updatedOfficer = handleInvalidInput();
             this.setName(updatedOfficer.getName());
             this.setSalary(updatedOfficer.getSalary());

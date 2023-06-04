@@ -1,12 +1,9 @@
 package com.laba.solvd.militaryProject.customLinkedList;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.NoSuchElementException;
-import java.util.Spliterator;
+import java.util.*;
 import java.util.function.Consumer;
 
-public class CustomLinkedList<E> implements Iterable<E>{
+public class CustomLinkedList<E> implements List<E> {
         private Node<E> head;
         private int size;
 
@@ -18,6 +15,16 @@ public class CustomLinkedList<E> implements Iterable<E>{
     @Override
     public Iterator<E> iterator() {
         return new CustomLinkedListIterator();
+    }
+
+    @Override
+    public Object[] toArray() {
+        throw new UnsupportedOperationException("Method not supported ");
+    }
+
+    @Override
+    public <T> T[] toArray(T[] a) {
+        throw new UnsupportedOperationException("Method not supported ");
     }
 
     private class CustomLinkedListIterator implements Iterator<E> {
@@ -47,12 +54,12 @@ public class CustomLinkedList<E> implements Iterable<E>{
 
     @Override
     public void forEach(Consumer<? super E> action) {
-        Iterable.super.forEach(action);
+        List.super.forEach(action);
     }
 
     @Override
     public Spliterator<E> spliterator() {
-        return Iterable.super.spliterator();
+        return List.super.spliterator();
     }
 
     private static class Node<E> {
@@ -64,7 +71,6 @@ public class CustomLinkedList<E> implements Iterable<E>{
                 this.next = null;
             }
         }
-
         public E remove(int index) {
             if (index < 0 || index >= size) {
                 throw new IndexOutOfBoundsException("Invalid index: " + index);
@@ -93,7 +99,32 @@ public class CustomLinkedList<E> implements Iterable<E>{
             return removedData;
         }
 
-        public void add(int index, E element) {
+    @Override
+    public int indexOf(Object o) {
+        throw new UnsupportedOperationException("Method not supported ");
+    }
+
+    @Override
+    public int lastIndexOf(Object o) {
+        throw new UnsupportedOperationException("Method not supported ");
+    }
+
+    @Override
+    public ListIterator<E> listIterator() {
+        throw new UnsupportedOperationException("Method not supported ");
+    }
+
+    @Override
+    public ListIterator<E> listIterator(int index) {
+        throw new UnsupportedOperationException("Method not supported ");
+    }
+
+    @Override
+    public List<E> subList(int fromIndex, int toIndex) {
+        throw new UnsupportedOperationException("Method not supported ");
+    }
+
+    public void add(int index, E element) {
             if (index < 0 || index > size) {
                 throw new IndexOutOfBoundsException("Invalid index: " + index);
             }
@@ -192,7 +223,12 @@ public class CustomLinkedList<E> implements Iterable<E>{
             return modified;
         }
 
-        public boolean addAll(int index, Collection<? extends E> c) {
+    @Override
+    public boolean retainAll(Collection<?> c) {
+        throw new UnsupportedOperationException("Method not supported ");
+    }
+
+    public boolean addAll(int index, Collection<? extends E> c) {
             if (index < 0 || index > size) {
                 throw new IndexOutOfBoundsException("Invalid index: " + index);
             }
@@ -238,7 +274,12 @@ public class CustomLinkedList<E> implements Iterable<E>{
             return true;
         }
 
-        public boolean remove(Object o) {
+    @Override
+    public boolean addAll(Collection<? extends E> c) {
+        throw new UnsupportedOperationException("Method not supported ");
+    }
+
+    public boolean remove(Object o) {
             Node<E> current = head;
             Node<E> previous = null;
 

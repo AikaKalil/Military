@@ -14,7 +14,7 @@ public class Pilot extends MilitaryPersonnelAbstract {
     public Pilot(String name, double salary, PilotRank pilotRank, Gender gender) throws InvalidPersonnelException, InvalidRankException {
         super(name, salary,gender);
         this.pilotRank = pilotRank;
-        if (name==null || salary<=0 || !isValidRank(pilotRank)){
+        if (name=="" || name==" " || salary<=0 || !isValidRank(pilotRank)){
             Pilot updatedPilot = handleInvalidInput();
             this.setName(updatedPilot.getName());
             this.setSalary(updatedPilot.getSalary());

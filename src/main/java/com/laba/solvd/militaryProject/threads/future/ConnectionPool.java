@@ -16,7 +16,7 @@ public class ConnectionPool {
         initializeConnections();
     }
 
-    private void initializeConnections() {
+    private synchronized void initializeConnections() {
         for (int i = 0; i < POOL_SIZE; i++) {
             String connectionId = "Connection " + (i + 1);
             Connection connection = new Connection(connectionId);
@@ -36,7 +36,7 @@ public class ConnectionPool {
         return future;
     }
 
-    public void releaseConnection(Connection connection) {
+    public synchronized void releaseConnection(Connection connection) {
         connections.offer(connection);
         semaphore.release();
     }

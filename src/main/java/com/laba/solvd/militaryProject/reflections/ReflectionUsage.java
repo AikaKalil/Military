@@ -9,6 +9,7 @@ import com.laba.solvd.militaryProject.militaryPersonnel.MilitaryPersonnelAbstrac
 import org.apache.log4j.Logger;
 import java.lang.reflect.*;
 import java.util.Arrays;
+
 import static com.laba.solvd.militaryProject.enums.Branch.AIR_FORCE;
 
 public class ReflectionUsage {

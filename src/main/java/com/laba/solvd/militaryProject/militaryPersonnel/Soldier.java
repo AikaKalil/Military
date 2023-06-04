@@ -12,7 +12,7 @@ public class Soldier extends MilitaryPersonnelAbstract{
     public Soldier(String name, double salary, SoldierRank soldierRank, Gender gender) throws InvalidPersonnelException,InvalidRankException {
         super(name, salary,gender);
         this.soldierRank = soldierRank;
-        if (name==null || salary<=0 || !isValidRank(soldierRank)){
+        if (name=="" || name==" " || salary<=0 || !isValidRank(soldierRank)){
             Soldier updatedSoldier = handleInvalidInput();
             this.setName(updatedSoldier.getName());
             this.setSalary(updatedSoldier.getSalary());
@@ -35,7 +35,6 @@ public class Soldier extends MilitaryPersonnelAbstract{
         scan.nextLine();
         log.info("Enter a new branch: ");
         Gender newGender = Gender.selectGender(scan);
-
         return new Soldier(newName, newCost, newRank, newGender);
     }
     private boolean isValidRank(SoldierRank soldierRank) {

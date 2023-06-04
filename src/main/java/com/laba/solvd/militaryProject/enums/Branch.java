@@ -1,5 +1,7 @@
 package com.laba.solvd.militaryProject.enums;
 
+import com.laba.solvd.militaryProject.exceptions.InvalidEntryException;
+
 import java.util.Scanner;
 
 public enum Branch {
@@ -19,14 +21,16 @@ public enum Branch {
                 return displayName;
         }
 
-        public static Branch selectBranch(Scanner scanner) {
-                String userInput = scanner.nextLine().toUpperCase();
-                for (Branch branch : Branch.values()) {
-                        if (branch.name().equals(userInput)) {
-                                return branch;
+        public static Branch selectBranch(Scanner scanner) throws InvalidEntryException {
+                while (true) {
+                        String userInput = scanner.nextLine().toUpperCase().replace(" ", "_");
+                        for (Branch branch : Branch.values()) {
+                                if (branch.name().equals(userInput)) {
+                                        return branch;
+                                }
                         }
-                }
+                        System.out.println(("Invalid branch name! Please reenter: "));
 
-                return null;
+                }
         }
 }

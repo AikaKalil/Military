@@ -60,17 +60,20 @@ public abstract class MilitaryPersonnelAbstract implements CalculateSalary, GetI
     @Override
     public abstract String getInfo();
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof MilitaryPersonnelAbstract)) return false;
-        MilitaryPersonnelAbstract that = (MilitaryPersonnelAbstract) o;
-        return Double.compare(that.salary, salary) == 0 &&
-                Objects.equals(name, that.name) &&
-                Objects.equals(rank, that.rank);
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        MilitaryPersonnelAbstract other = (MilitaryPersonnelAbstract) obj;
+        return Objects.equals(name, other.name);
     }
+
     @Override
     public int hashCode() {
-        return Objects.hash(name, salary, rank);
+        return Objects.hash(name);
     }
 
 
